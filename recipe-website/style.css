@@ -1,16 +1,24 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial;
     background: #0f172a;
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* NAVBAR */
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    justify-content: space-between;
+    padding: 15px 30px;
     background: #1e293b;
 }
 
@@ -20,8 +28,10 @@ body {
 }
 
 #search {
+    width: 40%;
     padding: 8px;
-    width: 250px;
+    border-radius: 5px;
+    border: none;
 }
 
 #filter {
@@ -31,39 +41,51 @@ body {
 /* HERO */
 .hero {
     text-align: center;
-    padding: 40px;
+    padding: 25px;
     background: linear-gradient(90deg, #6a11cb, #2575fc);
 }
 
 /* CATEGORIES */
 .categories {
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .categories button {
     margin: 5px;
-    padding: 10px;
-    background: #8b5cf6;
+    padding: 10px 15px;
     border: none;
+    background: #8b5cf6;
     color: white;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-/* CARDS */
+.categories button:hover {
+    background: #3b82f6;
+}
+
+/* RECIPES */
 .recipes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
+    padding: 20px;
 }
 
+/* CARD */
 .card {
     background: #1e293b;
-    padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
     width: 250px;
+    padding: 15px;
     text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card img {
@@ -71,10 +93,15 @@ body {
     border-radius: 10px;
 }
 
+.card h3 {
+    margin: 10px 0;
+}
+
 .card button {
     margin: 5px;
     padding: 8px;
     border: none;
+    border-radius: 5px;
     background: #3b82f6;
     color: white;
     cursor: pointer;
@@ -91,20 +118,22 @@ body {
 
 .modal-content {
     background: #1e293b;
-    margin: 10% auto;
     padding: 20px;
     width: 50%;
+    margin: 10% auto;
+    border-radius: 10px;
 }
 
 .close {
     float: right;
     cursor: pointer;
+    font-size: 25px;
 }
 
 /* FOOTER */
 footer {
+    margin-top: auto;
     text-align: center;
     padding: 15px;
     background: #1e293b;
-    margin-top: 20px;
 }
