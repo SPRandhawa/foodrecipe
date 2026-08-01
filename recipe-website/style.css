@@ -1,68 +1,89 @@
-
 body {
-    font-family: Arial;
     margin: 0;
+    font-family: Arial;
     background: #0f172a;
     color: white;
 }
 
-header {
-    background: linear-gradient(90deg, #6a11cb, #2575fc);
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 15px;
-    text-align: center;
+    background: #1e293b;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #search {
     padding: 8px;
     width: 250px;
-    margin-top: 10px;
 }
 
-#recipes {
+#filter {
+    padding: 8px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+}
+
+/* CATEGORIES */
+.categories {
+    text-align: center;
+    padding: 20px;
+}
+
+.categories button {
+    margin: 5px;
+    padding: 10px;
+    background: #8b5cf6;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* CARDS */
+.recipes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
-    flex-wrap: wrap;
 }
 
-.recipe-card {
+.card {
     background: #1e293b;
     padding: 15px;
     border-radius: 10px;
     width: 250px;
     text-align: center;
-    transition: 0.3s;
 }
 
-.recipe-card:hover {
-    transform: scale(1.05);
-}
-
-.recipe-card img {
+.card img {
     width: 100%;
     border-radius: 10px;
 }
 
-button {
-    background: #8b5cf6;
+.card button {
+    margin: 5px;
+    padding: 8px;
     border: none;
-    padding: 10px;
+    background: #3b82f6;
     color: white;
     cursor: pointer;
-    border-radius: 5px;
 }
 
-button:hover {
-    background: #3b82f6;
-}
-
-/* Modal */
+/* MODAL */
 .modal {
     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.7);
@@ -70,14 +91,20 @@ button:hover {
 
 .modal-content {
     background: #1e293b;
-    padding: 20px;
     margin: 10% auto;
+    padding: 20px;
     width: 50%;
-    border-radius: 10px;
 }
 
 .close {
     float: right;
     cursor: pointer;
-    font-size: 25px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1e293b;
+    margin-top: 20px;
 }
