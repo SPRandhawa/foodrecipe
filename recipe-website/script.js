@@ -8,14 +8,14 @@ const recipes = [
     },
     {
         name: "Gulab Jamun",
-        category: "dessert",
+        category: "indiandessert",
         image: "https://source.unsplash.com/300x200/?gulab-jamun",
         steps: "Fry dough balls and soak in sugar syrup.",
         youtube: "https://www.youtube.com/results?search_query=gulab+jamun"
     },
     {
         name: "Pizza",
-        category: "western",
+        category: "italian",
         image: "https://source.unsplash.com/300x200/?pizza",
         steps: "Bake dough with sauce, cheese, and toppings.",
         youtube: "https://www.youtube.com/results?search_query=pizza+recipe"
