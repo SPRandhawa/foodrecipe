@@ -7,47 +7,52 @@
 </head>
 <body>
 
-    <!-- Navbar -->
-    <header>
-        <h1>🍲 Recipe Hub</h1>
-        <input type="text" id="search" placeholder="Search recipes...">
-    </header>
+<!-- 🔝 NAVBAR -->
+<nav class="navbar">
+    <div class="logo">🍲 RecipeHub</div>
 
-    <!-- Recipe Container -->
-    <section id="recipes">
+    <input type="text" id="search" placeholder="Search recipes...">
 
-        <div class="recipe-card">
-            <img src="https://via.placeholder.com/300" alt="">
-            <h2>Pizza</h2>
-            <p>Delicious cheesy pizza</p>
-            <button onclick="showRecipe('pizza')">View Recipe</button>
-        </div>
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="indian">Indian</option>
+        <option value="chinese">Chinese</option>
+        <option value="dessert">Dessert</option>
+        <option value="western">Western</option>
+    </select>
+</nav>
 
-        <div class="recipe-card">
-            <img src="https://via.placeholder.com/300" alt="">
-            <h2>Pasta</h2>
-            <p>Italian creamy pasta</p>
-            <button onclick="showRecipe('pasta')">View Recipe</button>
-        </div>
+<!-- 🎯 HERO SECTION -->
+<section class="hero">
+    <h1>Discover Delicious Recipes 🍽️</h1>
+    <p>Cook, Explore & Enjoy Amazing Dishes</p>
+</section>
 
-        <div class="recipe-card">
-            <img src="https://via.placeholder.com/300" alt="">
-            <h2>Burger</h2>
-            <p>Juicy chicken burger</p>
-            <button onclick="showRecipe('burger')">View Recipe</button>
-        </div>
+<!-- 🍱 CATEGORY OPTIONS -->
+<section class="categories">
+    <button onclick="filterCategory('indian')">Indian</button>
+    <button onclick="filterCategory('chinese')">Chinese</button>
+    <button onclick="filterCategory('dessert')">Desserts</button>
+    <button onclick="filterCategory('western')">Western</button>
+</section>
 
-    </section>
+<!-- 🍔 RECIPE CARDS -->
+<section id="recipes" class="recipes"></section>
 
-    <!-- Recipe Details Modal -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span onclick="closeModal()" class="close">&times;</span>
-            <h2 id="recipe-title"></h2>
-            <p id="recipe-details"></p>
-        </div>
+<!-- 📺 MODAL -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span onclick="closeModal()" class="close">&times;</span>
+        <h2 id="title"></h2>
+        <p id="details"></p>
     </div>
+</div>
 
-    <script src="script.js"></script>
+<!-- 🔻 FOOTER -->
+<footer>
+    <p>© 2026 RecipeHub | Made by You 🚀</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
