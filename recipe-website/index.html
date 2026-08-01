@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Recipe Hub</title>
+    <title>RecipeHub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- 🔝 NAVBAR -->
+<!-- NAVBAR -->
 <nav class="navbar">
     <div class="logo">🍲 RecipeHub</div>
 
@@ -22,33 +22,34 @@
     </select>
 </nav>
 
-<!-- 🎯 HERO SECTION -->
+<!-- HERO -->
 <section class="hero">
     <h1>Discover Delicious Recipes 🍽️</h1>
     <p>Cook, Explore & Enjoy Amazing Dishes</p>
 </section>
 
-<!-- 🍱 CATEGORY OPTIONS -->
+<!-- CATEGORY BUTTONS -->
 <section class="categories">
-    <button onclick="filterCategory('indian')">Indian</button>
-    <button onclick="filterCategory('chinese')">Chinese</button>
-    <button onclick="filterCategory('dessert')">Desserts</button>
-    <button onclick="filterCategory('western')">Western</button>
+    <button onclick="setCategory('all')">All</button>
+    <button onclick="setCategory('indian')">Indian</button>
+    <button onclick="setCategory('chinese')">Chinese</button>
+    <button onclick="setCategory('dessert')">Desserts</button>
+    <button onclick="setCategory('western')">Western</button>
 </section>
 
-<!-- 🍔 RECIPE CARDS -->
+<!-- RECIPES -->
 <section id="recipes" class="recipes"></section>
 
-<!-- 📺 MODAL -->
+<!-- MODAL -->
 <div id="modal" class="modal">
     <div class="modal-content">
-        <span onclick="closeModal()" class="close">&times;</span>
-        <h2 id="title"></h2>
-        <p id="details"></p>
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-text"></p>
     </div>
 </div>
 
-<!-- 🔻 FOOTER -->
+<!-- FOOTER -->
 <footer>
     <p>© 2026 RecipeHub | Made by You 🚀</p>
 </footer>
