@@ -1,110 +1,83 @@
-body {
-    margin: 0;
-    font-family: Arial;
-    background: #0f172a;
-    color: white;
+const recipes = [
+    {
+        name: "Butter Chicken",
+        category: "indian",
+        image: "https://via.placeholder.com/300",
+        steps: "Cook chicken with spices and butter.",
+        youtube: "https://www.youtube.com/results?search_query=butter+chicken+recipe"
+    },
+    {
+        name: "Noodles",
+        category: "chinese",
+        image: "https://via.placeholder.com/300",
+        steps: "Boil noodles and stir fry.",
+        youtube: "https://www.youtube.com/results?search_query=noodles+recipe"
+    },
+    {
+        name: "Gulab Jamun",
+        category: "dessert",
+        image: "https://via.placeholder.com/300",
+        steps: "Fry balls and dip in sugar syrup.",
+        youtube: "https://www.youtube.com/results?search_query=gulab+jamun"
+    },
+    {
+        name: "Pizza",
+        category: "western",
+        image: "https://via.placeholder.com/300",
+        steps: "Bake pizza with toppings.",
+        youtube: "https://www.youtube.com/results?search_query=pizza+recipe"
+    }
+];
+
+let currentCategory = "all";
+
+// Display recipes
+function displayRecipes() {
+    const container = document.getElementById("recipes");
+    container.innerHTML = "";
+
+    recipes.forEach(r => {
+        if (currentCategory === "all" || r.category === currentCategory) {
+            container.innerHTML += `
+                <div class="card">
+                    <img src="${r.image}">
+                    <h3>${r.name}</h3>
+                    <button onclick="showSteps('${r.name}', '${r.steps}')">View Recipe</button>
+                    <button onclick="window.open('${r.youtube}')">YouTube</button>
+                </div>
+            `;
+        }
+    });
 }
 
-/* NAVBAR */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background: #1e293b;
+// Filter category
+function filterCategory(cat) {
+    currentCategory = cat;
+    displayRecipes();
 }
 
-.logo {
-    font-size: 20px;
-    font-weight: bold;
+// Show modal
+function showSteps(name, steps) {
+    document.getElementById("modal").style.display = "block";
+    document.getElementById("title").innerText = name;
+    document.getElementById("details").innerText = steps;
 }
 
-#search {
-    padding: 8px;
-    width: 250px;
+// Close modal
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
 }
 
-#filter {
-    padding: 8px;
-}
+// Search
+document.getElementById("search").addEventListener("keyup", function () {
+    let value = this.value.toLowerCase();
+    const cards = document.querySelectorAll(".card");
 
-/* HERO */
-.hero {
-    text-align: center;
-    padding: 40px;
-    background: linear-gradient(90deg, #6a11cb, #2575fc);
-}
+    cards.forEach(card => {
+        let name = card.querySelector("h3").innerText.toLowerCase();
+        card.style.display = name.includes(value) ? "block" : "none";
+    });
+});
 
-/* CATEGORIES */
-.categories {
-    text-align: center;
-    padding: 20px;
-}
-
-.categories button {
-    margin: 5px;
-    padding: 10px;
-    background: #8b5cf6;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-/* CARDS */
-.recipes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    background: #1e293b;
-    padding: 15px;
-    border-radius: 10px;
-    width: 250px;
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.card button {
-    margin: 5px;
-    padding: 8px;
-    border: none;
-    background: #3b82f6;
-    color: white;
-    cursor: pointer;
-}
-
-/* MODAL */
-.modal {
-    display: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.7);
-}
-
-.modal-content {
-    background: #1e293b;
-    margin: 10% auto;
-    padding: 20px;
-    width: 50%;
-}
-
-.close {
-    float: right;
-    cursor: pointer;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 15px;
-    background: #1e293b;
-    margin-top: 20px;
-}
+// Initial load
+displayRecipes();
