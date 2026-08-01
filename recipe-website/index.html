@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Navbar -->
+    <header>
+        <h1>🍲 Recipe Hub</h1>
+        <input type="text" id="search" placeholder="Search recipes...">
+    </header>
+
+    <!-- Recipe Container -->
+    <section id="recipes">
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/300" alt="">
+            <h2>Pizza</h2>
+            <p>Delicious cheesy pizza</p>
+            <button onclick="showRecipe('pizza')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/300" alt="">
+            <h2>Pasta</h2>
+            <p>Italian creamy pasta</p>
+            <button onclick="showRecipe('pasta')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/300" alt="">
+            <h2>Burger</h2>
+            <p>Juicy chicken burger</p>
+            <button onclick="showRecipe('burger')">View Recipe</button>
+        </div>
+
+    </section>
+
+    <!-- Recipe Details Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span onclick="closeModal()" class="close">&times;</span>
+            <h2 id="recipe-title"></h2>
+            <p id="recipe-details"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
