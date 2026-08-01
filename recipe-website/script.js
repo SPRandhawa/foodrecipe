@@ -1,31 +1,30 @@
 const recipes = [
-    
     {
-        name: "Noodles",
+        name: "Hakka Noodles",
         category: "chinese",
-        image: "https://via.placeholder.com/300",
-        steps: "Boil noodles and stir fry.",
+        image: "https://source.unsplash.com/300x200/?noodles",
+        steps: "Boil noodles and stir fry with vegetables.",
         youtube: "https://www.youtube.com/results?search_query=noodles+recipe"
     },
     {
         name: "Gulab Jamun",
         category: "dessert",
-        image: "https://via.placeholder.com/300",
-        steps: "Fry balls and dip in sugar syrup.",
+        image: "https://source.unsplash.com/300x200/?gulab-jamun",
+        steps: "Fry dough balls and soak in sugar syrup.",
         youtube: "https://www.youtube.com/results?search_query=gulab+jamun"
     },
     {
         name: "Pizza",
         category: "western",
-        image: "https://via.placeholder.com/300",
-        steps: "Bake pizza with toppings.",
+        image: "https://source.unsplash.com/300x200/?pizza",
+        steps: "Bake dough with sauce, cheese, and toppings.",
         youtube: "https://www.youtube.com/results?search_query=pizza+recipe"
     }
 ];
 
 let currentCategory = "all";
 
-// Display recipes
+/* DISPLAY */
 function displayRecipes() {
     const container = document.getElementById("recipes");
     container.innerHTML = "";
@@ -36,7 +35,7 @@ function displayRecipes() {
                 <div class="card">
                     <img src="${r.image}">
                     <h3>${r.name}</h3>
-                    <button onclick="showSteps('${r.name}', '${r.steps}')">View Recipe</button>
+                    <button onclick="showRecipe('${r.name}', '${r.steps}')">View Recipe</button>
                     <button onclick="window.open('${r.youtube}')">YouTube</button>
                 </div>
             `;
@@ -44,34 +43,39 @@ function displayRecipes() {
     });
 }
 
-// Filter category
-function filterCategory(cat) {
+/* CATEGORY */
+function setCategory(cat) {
     currentCategory = cat;
     displayRecipes();
 }
 
-// Show modal
-function showSteps(name, steps) {
-    document.getElementById("modal").style.display = "block";
-    document.getElementById("title").innerText = name;
-    document.getElementById("details").innerText = steps;
-}
-
-// Close modal
-function closeModal() {
-    document.getElementById("modal").style.display = "none";
-}
-
-// Search
+/* SEARCH */
 document.getElementById("search").addEventListener("keyup", function () {
-    let value = this.value.toLowerCase();
+    const value = this.value.toLowerCase();
     const cards = document.querySelectorAll(".card");
 
     cards.forEach(card => {
-        let name = card.querySelector("h3").innerText.toLowerCase();
+        const name = card.querySelector("h3").innerText.toLowerCase();
         card.style.display = name.includes(value) ? "block" : "none";
     });
 });
 
-// Initial load
-displayRecipes();
+/* FILTER DROPDOWN */
+document.getElementById("filter").addEventListener("change", function () {
+    currentCategory = this.value;
+    displayRecipes();
+});
+
+/* MODAL */
+function showRecipe(name, steps) {
+    document.getElementById("modal").style.display = "block";
+    document.getElementById("modal-title").innerText = name;
+    document.getElementById("modal-text").innerText = steps;
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+
+/* LOAD */
+window.onload = displayRecipes;
