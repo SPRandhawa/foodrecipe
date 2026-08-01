@@ -1,11 +1,5 @@
 const recipes = [
-    {
-        name: "Butter Chicken",
-        category: "indian",
-        image: "https://via.placeholder.com/300",
-        steps: "Cook chicken with spices and butter.",
-        youtube: "https://www.youtube.com/results?search_query=butter+chicken+recipe"
-    },
+    
     {
         name: "Noodles",
         category: "chinese",
