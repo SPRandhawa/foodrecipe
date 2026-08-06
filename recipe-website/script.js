@@ -7,12 +7,12 @@ const recipes = [
         youtube: "https://www.youtube.com/results?search_query=noodles+recipe"
     },
     {
-        name: "Gulab Jamun",
-        category: "indiandessert",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkiEZFfbgDaqgpM5YleUxN61m9duQN029zCaALb65wdSKe_i_7U1JhIs&s=10",
-        steps: "Fry dough balls and soak in sugar syrup.",
-        youtube: "https://www.youtube.com/results?search_query=gulab+jamun"
-    },
+  name: "Gulab Jamun",
+  category: "indiandessert",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkiEZFfbgDaqgpM5YleUxN61m9duQN029zCaALb65wdSKe_i_7U1JhIs&s=10",
+  steps: "Fry dough balls and soak in sugar syrup.",
+  youtube: "https://youtube.com"
+},
     {
         name: "Pizza",
         category: "italian",
