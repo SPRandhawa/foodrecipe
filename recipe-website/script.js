@@ -9,7 +9,7 @@ const recipes = [
     {
         name: "Gulab Jamun",
         category: "indiandessert",
-        image: "https://www.google.com/imgres?imgurl=https://static.toiimg.com/thumb/63799510.cms?imgsize%3D1091643%26width%3D800%26height%3D800&tbnid=70PFvWftvtHywM&vet=1&imgrefurl=https://recipes.timesofindia.com/recipes/gulab-jamun/rs63799510.cms&docid=QjxmkLExQUXV2M&w=800&h=800&hl=en-IN&source=sh/x/im/m1/4&kgs=70a96c108393709f&shem=epsd1,nisbtsa2,nisbtsal,rimspwouoe&utm_source=epsd1,nisbtsa2,nisbtsal,rimspwouoe,sh/x/im/m1/4",
+        image: "https://i.ibb.co/zWGKpM6p/images.jpg",
         steps: "Fry dough balls and soak in sugar syrup.",
         youtube: "https://youtu.be/B696X8driX8?si=MBp3ZTpjHTapQGc4",
     },
