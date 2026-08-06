@@ -11,7 +11,7 @@ const recipes = [
         category: "indiandessert",
         image: "https://ibb.co/1Y8H1gz1 ",
         steps: "Fry dough balls and soak in sugar syrup.",
-        youtube: "https://youtube.com"
+        youtube: "https://youtu.be/B696X8driX8?si=MBp3ZTpjHTapQGc4",
     },
     {
         name: "Pizza",
