@@ -18,7 +18,7 @@ const recipes = [
         category: "italian",
         image: "https://unsplash.com",
         steps: "Bake dough with sauce, cheese, and toppings.",
-        youtube: "https://www.youtube.com/results?search_query=pizza+recipe"
+        youtube: "https://youtu.be/XY5nwHIRwKk?si=OLLY1CtHqBVZkBQf",
     }
 ];
 
