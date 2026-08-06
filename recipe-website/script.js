@@ -4,7 +4,7 @@ const recipes = [
         category: "chinese",
         image: "https://unsplash.com",
         steps: "Boil noodles and stir fry with vegetables.",
-        youtube: "https://www.youtube.com/results?search_query=noodles+recipe"
+        youtube: "https://youtu.be/4Q12_scB6AY?si=i_OPtupXNeNHKGFD",
     },
     {
         name: "Gulab Jamun",
