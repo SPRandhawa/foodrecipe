@@ -2,21 +2,21 @@ const recipes = [
     {
         name: "Hakka Noodles",
         category: "chinese",
-        image: "https://source.unsplash.com/300x200/?noodles",
+        image: "https://unsplash.com",
         steps: "Boil noodles and stir fry with vegetables.",
         youtube: "https://www.youtube.com/results?search_query=noodles+recipe"
     },
     {
-  name: "Gulab Jamun",
-  category: "indiandessert",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkiEZFfbgDaqgpM5YleUxN61m9duQN029zCaALb65wdSKe_i_7U1JhIs&s=10",
-  steps: "Fry dough balls and soak in sugar syrup.",
-  youtube: "https://youtube.com"
-},
+        name: "Gulab Jamun",
+        category: "indiandessert",
+        image: "https://unsplash.com",
+        steps: "Fry dough balls and soak in sugar syrup.",
+        youtube: "https://youtube.com"
+    },
     {
         name: "Pizza",
         category: "italian",
-        image: "https://source.unsplash.com/300x200/?pizza",
+        image: "https://unsplash.com",
         steps: "Bake dough with sauce, cheese, and toppings.",
         youtube: "https://www.youtube.com/results?search_query=pizza+recipe"
     }
@@ -24,47 +24,48 @@ const recipes = [
 
 let currentCategory = "all";
 
-/* DISPLAY */
+/* DISPLAY WITH FILTER & SEARCH COMBINED */
 function displayRecipes() {
     const container = document.getElementById("recipes");
+    if (!container) return;
+    
     container.innerHTML = "";
+    const searchValue = document.getElementById("search").value.toLowerCase();
 
     recipes.forEach(r => {
-        if (currentCategory === "all" || r.category === currentCategory) {
+        // Match both Category filter and Search input simultaneously
+        const matchesCategory = currentCategory === "all" || r.category === currentCategory;
+        const matchesSearch = r.name.toLowerCase().includes(searchValue);
+
+        if (matchesCategory && matchesSearch) {
             container.innerHTML += `
                 <div class="card">
-                    <img src="${r.image}">
+                    <img src="${r.image}" alt="${r.name}">
                     <h3>${r.name}</h3>
-                    <button onclick="showRecipe('${r.name}', '${r.steps}')">View Recipe</button>
-                    <button onclick="window.open('${r.youtube}')">YouTube</button>
+                    <button onclick="showRecipe('${r.name.replace(/'/g, "\\'")}', '${r.steps.replace(/'/g, "\\'")}')">View Recipe</button>
+                    <button onclick="window.open('${r.youtube}', '_blank')">YouTube</button>
                 </div>
             `;
         }
     });
 }
 
-/* CATEGORY */
+/* CATEGORY BUTTONS */
 function setCategory(cat) {
     currentCategory = cat;
+    // Sync dropdown value with button selection
+    document.getElementById("filter").value = cat;
     displayRecipes();
 }
-
-/* SEARCH */
-document.getElementById("search").addEventListener("keyup", function () {
-    const value = this.value.toLowerCase();
-    const cards = document.querySelectorAll(".card");
-
-    cards.forEach(card => {
-        const name = card.querySelector("h3").innerText.toLowerCase();
-        card.style.display = name.includes(value) ? "block" : "none";
-    });
-});
 
 /* FILTER DROPDOWN */
 document.getElementById("filter").addEventListener("change", function () {
     currentCategory = this.value;
     displayRecipes();
 });
+
+/* SEARCH */
+document.getElementById("search").addEventListener("input", displayRecipes);
 
 /* MODAL */
 function showRecipe(name, steps) {
