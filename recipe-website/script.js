@@ -11,7 +11,7 @@ const recipes = [
         category: "indiandessert",
         image: "https://upload.wikimedia.org/wikipedia/commons/5/55/Gulab_jamun.jpg",
         steps: "Fry dough balls and soak in sugar syrup.",
-        youtube: "https://youtu.be/B696X8driX8?si=MBp3ZTpjHTapQGc4",
+        youtube: "https://youtu.be/eQPZv_bwKGA?si=Sm4zMDWbbjE1i97J",
     },
     {
         name: "Pizza",
