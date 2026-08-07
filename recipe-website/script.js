@@ -2,7 +2,7 @@ const recipes = [
     {
         name: "Hakka Noodles",
         category: "chinese",
-        image: "https://unsplash.com",
+        image: "https://www.google.com/search?q=hakka+noodles&sca_esv=b0e23ee05b473abd&hl=en-IN&udm=2&sxsrf=APpeQnvbLu8rN4DQOaG-8gfkhPjuUk8HpQ%3A1786124036211&ei=BBd2aqfBDPeVhvcPx6_4sAs&biw=393&bih=736&gs_ssp=eJzj4tVP1zc0zLA0Nkg2SzY1YHRg8OLNSMzOTlTIy89PyUktBgCJuglQ&oq=hakka+&gs_lp=EhJtb2JpbGUtZ3dzLXdpei1pbWciBmhha2thICoCCAAyDRAuGIAEGIoFGEMYsQMyCBAAGIAEGLEDMgoQABiABBiKBRhDMggQLhiABBjlBDIFEAAYgARIpRlQ6AJYgBBwAXgAkAEAmAHOAqABuQ2qAQcwLjMuMi4yuAEByAEA-AEBmAIHoAKDDKgCBcICChAjGMkCGOoCGCfCAgcQIxjJAhgnwgIIEC4YgAQYsQPCAg4QABiABBiKBRixAxiDAcICDRAuGIAEGIoFGEMY5QTCAgoQLhiABBiKBRhDmAMbkgcHMS4xLjMuMqAH7imyBwcwLjEuMy4yuAfoC8IHBzItMi4zLjLIB1qACAE&sclient=mobile-gws-wiz-img",
         steps: "Boil noodles and stir fry with vegetables.",
         youtube: "https://youtu.be/4Q12_scB6AY?si=i_OPtupXNeNHKGFD",
     },
