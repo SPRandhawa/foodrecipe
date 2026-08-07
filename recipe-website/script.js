@@ -9,7 +9,7 @@ const recipes = [
     {
         name: "Gulab Jamun",
         category: "indiandessert",
-        image: "https://upload.wikimedia.org/wikipedia/commons/5/55/Gulab_jamun.jpg",
+        image: "https://i.ibb.co/zWGKpM6p/images.jpg",
         steps: "Fry dough balls and soak in sugar syrup.",
         youtube: "https://youtu.be/eQPZv_bwKGA?si=Sm4zMDWbbjE1i97J",
     },
