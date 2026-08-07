@@ -2,7 +2,7 @@ const recipes = [
     {
         name: "Hakka Noodles",
         category: "chinese",
-        image: "https://pin.it/3FWK7b7iD",
+        image: "https://images.pexels.com/photos/14457500/pexels-photo-14457500.jpeg",
         steps: "Boil noodles and stir fry with vegetables.",
         youtube: "https://youtu.be/4Q12_scB6AY?si=i_OPtupXNeNHKGFD",
     },
