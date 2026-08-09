@@ -13,6 +13,13 @@ const recipes = [
         steps: "Fry dough balls and soak in sugar syrup.",
         youtube: "https://youtu.be/eQPZv_bwKGA?si=Sm4zMDWbbjE1i97J",
     },
+     {
+        name: "Jalebi",
+        category: "indiandessert",
+        image: "https://pexels.com",
+        steps: "Deep-fry fermented batter in spirals and soak in sugar syrup.",
+        youtube: "https://youtu.be",
+    },
     {
         name: "Pizza",
         category: "italian",
