@@ -62,7 +62,6 @@ const recipes = [
         steps: "Sear seasoned meat on a hot grill and baste with garlic herb butter.",
         youtube: "https://youtu.be",
     },
-Use code with caution.Do you want another batch of entries to fill out your database, or would you like to add additional fields like prepTime or difficulty to the schema?
     {
         name: "Gulab Jamun",
         category: "indiandessert",
@@ -83,7 +82,7 @@ Use code with caution.Do you want another batch of entries to fill out your data
         image: "https://unsplash.com",
         steps: "Bake dough with sauce, cheese, and toppings.",
         youtube: "https://youtu.be/XY5nwHIRwKk?si=OLLY1CtHqBVZkBQf",
-    },
+    }
 ];
 
 let currentCategory = "all";
