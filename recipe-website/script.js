@@ -6,6 +6,63 @@ const recipes = [
         steps: "Boil noodles and stir fry with vegetables.",
         youtube: "https://youtu.be/4Q12_scB6AY?si=i_OPtupXNeNHKGFD",
     },
+     {
+        name: "Rasmalai",
+        category: "indiandessert",
+        image: "https://pexels.com",
+        steps: "Soak flattened cottage cheese balls in sweet, thickened saffron milk.",
+        youtube: "https://youtu.be",
+    },
+      {
+        name: "Paneer Tikka Masala",
+        category: "indian",
+        image: "https://pexels.com",
+        steps: "Grill marinated cottage cheese and simmer in a spiced tomato gravy.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Margherita Pizza",
+        category: "italian",
+        image: "https://pexels.com",
+        steps: "Top freshly rolled dough with tomato sauce, mozzarella, and basil.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Kaju Katli",
+        category: "indiandessert",
+        image: "https://pexels.com",
+        steps: "Cook ground cashew paste with sugar syrup and roll into diamonds.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Apple Pie",
+        category: "westerndessert",
+        image: "https://pexels.com",
+        steps: "Bake spiced apple slices inside a flaky, golden pastry crust.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Veggie Burger",
+        category: "western",
+        image: "https://pexels.com",
+        steps: "Grill a mixed vegetable patty and serve in a bun with fresh lettuce.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Chocolate Brownie",
+        category: "westerndessert",
+        image: "https://pexels.com",
+        steps: "Bake a rich chocolate and butter batter until fudgy in the center.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Grilled Steak",
+        category: "western",
+        image: "https://pexels.com",
+        steps: "Sear seasoned meat on a hot grill and baste with garlic herb butter.",
+        youtube: "https://youtu.be",
+    },
+Use code with caution.Do you want another batch of entries to fill out your database, or would you like to add additional fields like prepTime or difficulty to the schema?
     {
         name: "Gulab Jamun",
         category: "indiandessert",
@@ -26,7 +83,7 @@ const recipes = [
         image: "https://unsplash.com",
         steps: "Bake dough with sauce, cheese, and toppings.",
         youtube: "https://youtu.be/XY5nwHIRwKk?si=OLLY1CtHqBVZkBQf",
-    }
+    },
 ];
 
 let currentCategory = "all";
