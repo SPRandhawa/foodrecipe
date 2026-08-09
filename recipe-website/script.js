@@ -9,14 +9,14 @@ const recipes = [
     {
         name: "Rasmalai",
         category: "indiandessert",
-        image: "https://images.pexels.com/photos/12737808/pexels-photo-12737808.jpeg",
+        image: "https://t4.ftcdn.net/jpg/09/57/47/67/240_F_957476745_su6xORsIwsCICelPjbe1Ax2CHqZjD83T.jpg",
         steps: "Soak flattened cottage cheese balls in sweet, thickened saffron milk.",
         youtube: "https://youtu.be",
     },
     {
         name: "Paneer Tikka Masala",
         category: "indian",
-        image: "https://images.pexels.com/photos/9603930/pexels-photo-9603930.jpeg",
+        image: "https://t3.ftcdn.net/jpg/02/39/85/08/240_F_239850803_mbpWlelBCN6sWQXAoZoHWLmdJMsBF6Sr.jpg",
         steps: "Grill marinated cottage cheese and simmer in a spiced tomato gravy.",
         youtube: "https://youtu.be",
     },
@@ -30,7 +30,7 @@ const recipes = [
     {
         name: "Kaju Katli",
         category: "indiandessert",
-        image: "https://images.pexels.com/photos/14883750/pexels-photo-14883750.jpeg",
+        image: "https://t4.ftcdn.net/jpg/09/97/82/29/240_F_997822953_oCCk7NFp6zaqhLCxnu4IH8n5BdIW3sjn.jpg",
         steps: "Cook ground cashew paste with sugar syrup and roll into diamonds.",
         youtube: "https://youtu.be",
     },
@@ -56,13 +56,6 @@ const recipes = [
         youtube: "https://youtu.be",
     },
     {
-        name: "Grilled Steak",
-        category: "western",
-        image: "https://images.pexels.com/photos/361184/pexels-photo-361184.jpeg",
-        steps: "Sear seasoned meat on a hot grill and baste with garlic herb butter.",
-        youtube: "https://youtu.be",
-    },
-    {
         name: "Gulab Jamun",
         category: "indiandessert",
         image: "https://images.pexels.com/photos/37294501/pexels-photo-37294501.jpeg",
@@ -72,7 +65,7 @@ const recipes = [
     {
         name: "Jalebi",
         category: "indiandessert",
-        image: "https://images.pexels.com/photos/12028892/pexels-photo-12028892.jpeg",
+        image: "https://t3.ftcdn.net/jpg/07/11/42/02/240_F_711420295_BiOlcl1vmtZaqdSwmP5r372ZYs58aEhb.jpg",
         steps: "Deep-fry fermented batter in spirals and soak in sugar syrup.",
         youtube: "https://youtu.be",
     },
