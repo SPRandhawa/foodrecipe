@@ -138,7 +138,64 @@ const recipes = [
         image: "https://images.pexels.com/photos/31109623/pexels-photo-31109623.jpeg",
         steps: "Ingredients: 1 liter full-fat milk, 1/4 cup basmati rice (soaked for 30 minutes), 1/2 cup sugar, 4 crushed cardamom pods, 10 saffron strands, 2 tbsp sliced almonds and pistachios.\n\nStep 1: Rinse basmati rice and coarsely crush soaked grains using fingers.\nStep 2: Bring full-fat milk to boil in heavy-bottom pot, then lower flame.\nStep 3: Add crushed rice and cook on low heat for 25 minutes, stirring continuously to prevent sticking.\nStep 4: Once rice turns soft and milk thickens to creamy consistency, stir in sugar, saffron, and cardamom powder.\nStep 5: Simmer for another 5 minutes, garnish with sliced almonds and pistachios, and serve hot or chilled.",
         youtube: "https://youtu.be"
+    },
+        {
+        name: "Waffles",
+        category: "westerndessert",
+        image: "https://pexels.com",
+        steps: "Ingredients: 1 cup all-purpose flour, 1 tsp baking powder, 1 tbsp sugar, 1/4 tsp salt, 3/4 cup milk, 2 tbsp melted butter, 1 tsp vanilla extract, maple syrup or berries for serving.\n\nStep 1: Preheat your waffle iron according to the manufacturer's instructions.\nStep 2: In a large bowl, whisk together the all-purpose flour, baking powder, sugar, and salt.\nStep 3: Pour in the milk, melted butter, and vanilla extract. Whisk gently until just combined (minor lumps are fine).\nStep 4: Lightly grease the waffle iron plates with oil or butter spray.\nStep 5: Pour the batter onto the hot iron, close, and cook for 4 to 5 minutes until golden brown and crisp. Serve hot with maple syrup.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Idli",
+        category: "indian",
+        image: "https://ftcdn.net",
+        steps: "Ingredients: 3 cups parboiled rice, 1 cup whole skinned urad dal (black gram), 1 tsp fenugreek seeds, salt to taste, oil for greasing.\n\nStep 1: Wash and soak rice and urad dal (with fenugreek seeds) in separate bowls of water for 4 to 6 hours.\nStep 2: Grind the urad dal into a fluffy paste and the rice into a slightly coarse batter. Mix both together with salt.\nStep 3: Cover and let the batter ferment in a warm place for 8 to 12 hours until it rises and doubles in volume.\nStep 4: Grease idli mould plates with oil and gently pour the fermented batter into each cavity.\nStep 5: Steam in an idli cooker or steamer on medium-high heat for 10 to 12 minutes. Let cool slightly before scooping out.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Vegetable Stew",
+        category: "western",
+        image: "https://pexels.com",
+        steps: "Ingredients: 1 cup cubed potatoes, 1/2 cup chopped carrots, 1/2 cup green peas, 1 small onion (chopped), 2 cloves garlic (minced), 2 cups vegetable broth, 1 tbsp olive oil, 1 tsp dried thyme, salt, and black pepper.\n\nStep 1: Heat olive oil in a large deep pot over medium heat.\nStep 2: Add the minced garlic and chopped onions, sautéing for 2 to 3 minutes until translucent.\nStep 3: Toss in the potatoes, carrots, and green peas. Stir-fry everything together for about 2 minutes.\nStep 4: Pour in the vegetable broth and season with dried thyme, salt, and black pepper.\nStep 5: Bring to a boil, then cover and simmer on low heat for 20 minutes until the vegetables are completely tender.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Veg Shepherd's Pie",
+        category: "western",
+        image: "https://pexels.com",
+        steps: "Ingredients: 1 cup cooked brown lentils, 1 cup mixed veggies (corn, peas, carrots), 1 onion (chopped), 2 tbsp tomato paste, 1/2 cup vegetable broth, 3 large boiled potatoes, 2 tbsp milk, 1 tbsp butter, salt, and pepper.\n\nStep 1: Mash the boiled potatoes with butter, milk, salt, and pepper until smooth, then set aside.\nStep 2: Sauté onions in a pan, then add the mixed veggies, cooked lentils, tomato paste, and vegetable broth.\nStep 3: Simmer the lentil and vegetable filling for 5 minutes until the gravy thickens slightly.\nStep 4: Spread the veggie filling evenly into the bottom of a baking dish, then spread the mashed potatoes smoothly over the top.\nStep 5: Bake at 200°C (400°F) for 20 minutes until the potato topping turns golden brown and bubbles at the edges.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Veg Hot Sizzler",
+        category: "chinese",
+        image: "https://ftcdn.net",
+        steps: "Ingredients: 1 cup cooked fried rice or noodles, 1 Veggie Burger patty, 1/2 cup stir-fried veggies, 2 cabbage leaves, 2 tbsp barbeque sauce, 1 tsp chili flakes, 1 tbsp butter.\n\nStep 1: Prepare your fried rice/noodles, veggie patty, and stir-fried vegetables separately according to preference.\nStep 2: Heat an iron sizzler plate directly over a gas flame for 8 to 10 minutes until it becomes smoking hot.\nStep 3: Carefully place the hot iron plate onto its wooden base and line it immediately with fresh cabbage leaves to prevent burning.\nStep 4: Arrange portions of rice/noodles, the veggie patty, and stir-fried veggies side-by-side on top of the cabbage leaves.\nStep 5: Pour barbeque sauce over the food and drop a tablespoon of butter onto the edges of the hot iron plate to create steam and sizzle.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Pav Bhaji",
+        category: "indian",
+        image: "https://images.pexels.com/photos/12476774/pexels-photo-12476774.jpeg",
+        steps: "Ingredients: 2 cups mixed boiled veggies (potatoes, cauliflower, peas, carrots), 1 chopped onion, 2 pureed tomatoes, 1 tbsp pav bhaji masala, 1/2 cup butter, fresh coriander, lemon juice, 4 pav buns.\n\nStep 1: Mash all boiled vegetables thoroughly into a smooth mixture using a potato masher.\nStep 2: Heat 2 tbsp butter in a flat pan, sauté chopped onions until translucent, then add ginger-garlic paste.\nStep 3: Add pureed tomatoes, pav bhaji masala, red chili powder, and salt. Cook until butter separates.\nStep 4: Mix in the mashed vegetables along with 1/2 cup water. Simmer on low flame for 10 minutes, stirring occasionally.\nStep 5: Toast pav buns in butter on a griddle. Serve hot bhaji topped with fresh butter, coriander, and lemon juice alongside toasted pav.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Veg Fried Rice",
+        category: "chinese",
+        image: "https://images.pexels.com/photos/3926123/pexels-photo-3926123.jpeg",
+        steps: "Ingredients: 2 cups cooked cooled rice, 1 cup finely chopped veggies (carrots, beans, capsicum, spring onions), 1 tbsp soy sauce, 1 tsp vinegar, 1 tsp chopped garlic, 2 tbsp oil, salt, and black pepper.\n\nStep 1: Cook rice ahead of time and let it cool completely so the grains stay separate.\nStep 2: Heat 2 tbsp oil in a wok on high flame. Add chopped garlic and green chilies, stir-frying for 30 seconds.\nStep 3: Add the chopped carrots, beans, and capsicum. Toss continuously on high heat for 2 minutes to keep them crisp.\nStep 4: Add the cooked rice, soy sauce, vinegar, salt, and black pepper.\nStep 5: Toss everything gently on high heat for 2 minutes. Garnish with chopped spring onion greens and serve hot.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Penne Arrabbiata",
+        category: "italian",
+        image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+        steps: "Ingredients: 200g penne pasta, 3 pureed tomatoes, 3 chopped garlic cloves, 1 tsp red chili flakes, 1 tbsp olive oil, fresh basil leaves, salt, and grated parmesan cheese.\n\nStep 1: Boil penne pasta in salted water until al dente, drain, and reserve 1/2 cup pasta water.\nStep 2: Heat olive oil in a pan over medium heat, add minced garlic and red chili flakes, sautéing until fragrant.\nStep 3: Add pureed tomatoes and salt, simmering for 10 minutes until the sauce thickens.\nStep 4: Stir in the boiled penne pasta along with a splash of reserved pasta water to coat evenly.\nStep 5: Toss with fresh basil leaves, sprinkle with parmesan cheese, and serve warm.",
+        youtube: "https://youtu.be",
     }
+
 ];
 
 let currentCategory = "all";
