@@ -804,7 +804,6 @@ const recipes = [
         steps: "Ingredients: 1 cup semolina (suji/rawa), 1/2 cup ghee, 3/4 cup sugar, 3 cups water, 1/2 tsp cardamom powder, saffron strands, slivered almonds and cashews.\n\nStep 1: In a saucepan, boil water, sugar, and saffron strands together until sugar dissolves completely; keep hot.\nStep 2: Heat ghee in a heavy-bottomed pan, add cashews and almonds, fry until golden, then remove nuts and set aside.\nStep 3: In the same ghee, add suji and roast on low to medium heat, stirring continuously for 8-10 minutes until aromatic and golden brown.\nStep 4: Carefully pour hot sugar syrup into roasted suji while whisking constantly to prevent lump formation.\nStep 5: Stir in cardamom powder and fried nuts; cook on low heat until halwa thickens, leaves sides of the pan, and ghee releases on top. Serve hot.",
         youtube: "https://youtu.be",
     },
-    [
     {
         name: "Matar Palak Roti",
         category: "indianbread",
@@ -860,8 +859,56 @@ const recipes = [
         image: "https://images.pexels.com/photos/3806365/pexels-photo-3806365.jpeg",
         steps: "Ingredients: 4 cups bread flour, 1/3 cup sugar, 2 tsp salt, 1 tbsp instant yeast, 1.25 cups cold water, 1 cup unsalted butter (cold, for butter block), 1 egg (for egg wash).\n\nStep 1: Combine flour, sugar, salt, yeast, and cold water in a bowl; knead into a dough and chill in the refrigerator for 1 hour.\nStep 2: Pound cold butter into a flat 7x7-inch square block. Roll dough into a 10x10-inch square, place butter block diagonally in the center, wrap dough over it, and seal edges.\nStep 3: Roll the dough out into a long rectangle and perform a classic envelope fold (3-fold). Chill for 30 minutes; repeat this rolling and folding process 2 more times.\nStep 4: Roll the laminated dough into a large thin rectangle and slice into elongated triangles. Roll each triangle from the base to the tip to form croissant shapes.\nStep 5: Let them rise for 2 hours until puffy, brush with egg wash, and bake at 200°C (390°F) for 18-20 minutes until golden brown and flaky.",
         youtube: "https://www.youtube.com/watch?v=beP0C_419q0",
+    },
+    {
+        name: "Gajar Ka Halwa",
+        category: "indiandessert",
+        image: "https://media.istockphoto.com/id/1453452102/photo/gajar-ka-halwa-is-a-delicious-carrot-based-sweet-dessert-pudding-from-punjab-india-served-in.jpg?b=1&s=612x612&w=0&k=20&c=c4Tt4li7pC-LYHgvJ4RGJXDyZ9R33UfMMe1frnyQhvU=",
+        steps: "Ingredients: 1 kg juicy red carrots (grated), 1 liter full-fat milk, 4 tbsp ghee, 3/4 cup sugar, 1/2 cup khoya (mawa) crumbled, 1/2 tsp cardamom powder, 2 tbsp chopped cashews, 2 tbsp chopped almonds, 1 tbsp raisins.\n\nStep 1: In a heavy-bottomed kadhai, combine the grated carrots and full-fat milk. Bring to a boil over medium-high heat.\nStep 2: Simmer and stir regularly until all the milk has completely evaporated and absorbed into the carrots (takes ~30-40 minutes).\nStep 3: Add ghee to the carrots and sauté over medium heat for 8-10 minutes until aromatic.\nStep 4: Stir in the sugar and crumbled khoya; cook until the sugar melts, releases liquid, and thickens completely.\nStep 5: Mix in cardamom powder, cashews, almonds, and raisins. Cook for another 2-3 minutes until ghee separates from the sides. Serve hot garnishing with extra nuts.",
+        youtube: "https://www.youtube.com/watch?v=J9f24I0A4-4",
+    },
+    {
+        name: "Masala Maggi",
+        category: "streetfood",
+        image: "https://media.istockphoto.com/id/2161423116/photo/maggi-noodles-in-a-paper-plate.jpg?b=1&s=612x612&w=0&k=20&c=0PXeOXMaHfCynDUwxBdSygvgODRuYVEjvNXqaGghrM8=",
+        steps: "Ingredients: 2 packs Maggi noodles with taste maker, 1.5 cups water, 1 tbsp butter or oil, 1 small onion (finely chopped), 1 small tomato (chopped), 1 green chili (chopped), 1/4 cup green peas & capsicum, 1/2 tsp red chili powder, 1/4 tsp garam masala, salt to taste.\n\nStep 1: Heat butter or oil in a pan over medium heat. Add chopped green chili and onions; sauté until translucent.\nStep 2: Add chopped tomatoes, green peas, and capsicum. Cook for 2 minutes until vegetables soften.\nStep 3: Add red chili powder, garam masala, salt, and both packets of Maggi taste maker. Stir well.\nStep 4: Pour in 1.5 cups of water and bring it to a rolling boil.\nStep 5: Break the Maggi noodle cakes into the pan, mix well, and simmer for 2-3 minutes until noodles are cooked and sauce thickens to desired consistency. Serve piping hot.",
+        youtube: "https://www.youtube.com/watch?v=ju9H1RlYNxk",
+    },
+    {
+        name: "Kulhad Pizza",
+        category: "streetfood",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQKL1ZAZ3fHKDAg-3uYSLMAlBEIwF6KYQAZan3hjxv3g&s=10",
+        steps: "Ingredients: 1 cup diced bread cubes or boiled pasta, 1/2 cup diced capsicum, 1/2 cup boiled sweet corn, 1/2 cup chopped onions, 1/2 cup mozzarella cheese (grated), 2 tbsp pizza sauce, 2 tbsp mayonnaise, 1 tbsp liquid cheese, 1 tsp oregano, 1 tsp chili flakes, clay kulhads (pots).\n\nStep 1: In a large bowl, mix bread cubes, capsicum, sweet corn, onions, pizza sauce, mayonnaise, liquid cheese, oregano, and chili flakes together.\nStep 2: Take a clean clay kulhad and add a layer of the prepared pizza-bread mixture at the bottom.\nStep 3: Add a generous layer of grated mozzarella cheese over it, followed by another layer of the pizza mixture.\nStep 4: Top the kulhad with a thick layer of mozzarella cheese, sweet corn, chili flakes, and oregano.\nStep 5: Preheat oven or microwave/kadhai and bake the kulhad at 180°C for 7-10 minutes until the cheese is completely melted and golden brown. Serve hot.",
+        youtube: "https://www.youtube.com/watch?v=57uXe51Fwns",
+    },
+    {
+        name: " Sweet Corn",
+        category: "snacks",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTllp7EHVYdJ255BoUmJ6BN17IxV9m6HxMzsIeKbi_y7r4AVvndJUmvEJLsGiGNeJ0yIR9JEganjreNtdtToLoW2cFsljbaxRf_IYhOrrzM&s=10",
+        steps: "Ingredients: 2 cups boiled sweet corn kernels, 1.5 tbsp butter, 1/2 tsp chaat masala, 1/2 tsp red chili powder, 1/4 tsp roasted cumin powder, 1 tbsp lemon juice, salt to taste, fresh coriander (chopped).\n\nStep 1: Boil sweet corn kernels in water with a pinch of salt for 5 minutes until plump and tender. Drain water completely.\nStep 2: Transfer hot boiled sweet corn kernels into a mixing bowl.\nStep 3: Add butter immediately while the corn is steaming hot so it melts completely over the kernels.\nStep 4: Sprinkle chaat masala, red chili powder, roasted cumin powder, and salt. Mix thoroughly.\nStep 5: Squeeze fresh lemon juice over top, toss well, garnish with chopped fresh coriander, and serve hot in paper cups.",
+        youtube: "https://www.youtube.com/watch?v=ju9H1RlYNxk",
+    },
+    {
+        name: "Kala Chana Curry",
+        category: "indianmain",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpLSwAZVoW8SqL3YpAdX528s_3zNfnhRBZMPEiXseBEQ&s=10",
+        steps: "Ingredients: 1 cup black chickpeas (kala chana), 2 onions (finely chopped), 2 tomatoes (pureed), 1 tbsp ginger-garlic paste, 1 tsp cumin seeds, 1/2 tsp turmeric powder, 1 tsp red chili powder, 1 tsp coriander powder, 1 tsp chana masala, 2 tbsp oil, salt to taste, fresh coriander leaves.\n\nStep 1: Soak black chickpeas in water overnight (8 hours). Pressure cook with water and salt for 5-6 whistles until soft.\nStep 2: Heat oil in a pan, add cumin seeds, and let them sputter. Add chopped onions and sauté until golden brown.\nStep 3: Stir in ginger-garlic paste and sauté for a minute. Add tomato puree, turmeric, red chili powder, coriander powder, and salt. Cook until oil separates.\nStep 4: Add the boiled kala chana along with its water. Mash a small portion of chana to thicken the gravy.\nStep 5: Simmer for 10-12 minutes, sprinkle chana masala and fresh coriander, and serve hot with rice or puri.",
+        youtube: "https://www.youtube.com/watch?v=J9f24I0A4-4",
+    },
+    {
+        name: "Aloo Matar",
+        category: "indianmain",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREzUa9Y7I0OpIbAx03Qcp-gOt_yrOJkHgvNYFFTKImqA&s=10",
+        steps: "Ingredients: 2 medium potatoes (diced), 1 cup green peas (matar), 1 onion (finely chopped), 2 tomatoes (pureed), 1 tsp ginger-garlic paste, 1/2 tsp cumin seeds, 1/2 tsp turmeric powder, 1 tsp chili powder, 1 tsp garam masala, 2 tbsp oil, salt to taste.\n\nStep 1: Heat oil in a pressure cooker or deep pan. Add cumin seeds and allow them to crackle.\nStep 2: Add chopped onions and cook until translucent. Add ginger-garlic paste and sauté for 1 minute.\nStep 3: Pour in tomato puree, turmeric powder, red chili powder, and salt. Cook on medium heat until oil releases from the spices.\nStep 4: Add diced potatoes and green peas. Toss well to coat with the masala, then add 1.5 cups of water.\nStep 5: Pressure cook for 2 whistles (or simmer in a pan until potatoes are tender). Garnish with garam masala and coriander before serving hot.",
+        youtube: "https://www.youtube.com/watch?v=ju9H1RlYNxk",
+    },
+    {
+        name: "Paneer Bhurji",
+        category: "indianmain",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwODVWijYpDsjixrCx_9p7gXk98t2OanwTrSTA_wXs7w&s=10",
+        steps: "Ingredients: 200g paneer (crumbled), 1 large onion (finely chopped), 1 large tomato (chopped), 1 green chili (chopped), 1 tsp ginger (grated), 1/2 tsp turmeric powder, 1/2 tsp red chili powder, 1/2 tsp pav bhaji masala or garam masala, 2 tbsp butter or oil, salt to taste, chopped coriander.\n\nStep 1: Melt butter or heat oil in a pan over medium heat. Add finely chopped onions and green chili; sauté until golden.\nStep 2: Add grated ginger and chopped tomatoes. Cook until tomatoes turn soft and mushy.\nStep 3: Add turmeric powder, red chili powder, pav bhaji masala/garam masala, and salt. Cook for 2 minutes until aromatic.\nStep 4: Add the crumbled paneer and mix well with the onion-tomato masala. Cook for 2-3 minutes (do not overcook to keep paneer soft).\nStep 5: Garnish generously with fresh coriander leaves and serve hot with parathas or roti.",
+        youtube: "https://www.youtube.com/watch?v=57uXe51Fwns",
     }
-]
     
 
 ];
