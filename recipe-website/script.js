@@ -842,7 +842,7 @@ const recipes = [
     {
         name: "Mooli Paratha",
         category: "indianbread",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9TFSdwG3zzJ9ciqtQrxjBmckB1YPaS1C3D1Ji_0TkYQ&s=10",
+        image:"https://peekncooksa.blob.core.windows.net/index-recipe/aloo_paratha.jpg",
         steps: "Ingredients: 2 cups wheat flour, 2 medium radishes (mooli) grated, 1 green chili finely chopped, 1 tsp ajwain (carom seeds), 1/2 tsp red chili powder, fresh coriander leaves, salt to taste, ghee for frying.\n\nStep 1: Grate the radish and squeeze tightly using your hands to completely extract all water.\nStep 2: Combine the squeezed radish with chopped green chili, ajwain, red chili powder, coriander leaves, and salt to form the stuffing.\nStep 3: Knead wheat flour into a medium-soft dough with water and let it rest for 10 minutes.\nStep 4: Roll a small ball of dough into a circle, fill with 2 tbsp of radish mixture, gather the ends to enclose the stuffing, and roll it flat gently.\nStep 5: Cook the paratha on a hot griddle with ghee on both sides until golden brown and flaky. Serve hot with yogurt or pickle.",
         youtube: "https://www.youtube.com/watch?v=XW3V9YQnZ2c",
     },
