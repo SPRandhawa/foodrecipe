@@ -803,7 +803,65 @@ const recipes = [
         image: "https://images.pexels.com/photos/38163947/pexels-photo-38163947.jpeg",
         steps: "Ingredients: 1 cup semolina (suji/rawa), 1/2 cup ghee, 3/4 cup sugar, 3 cups water, 1/2 tsp cardamom powder, saffron strands, slivered almonds and cashews.\n\nStep 1: In a saucepan, boil water, sugar, and saffron strands together until sugar dissolves completely; keep hot.\nStep 2: Heat ghee in a heavy-bottomed pan, add cashews and almonds, fry until golden, then remove nuts and set aside.\nStep 3: In the same ghee, add suji and roast on low to medium heat, stirring continuously for 8-10 minutes until aromatic and golden brown.\nStep 4: Carefully pour hot sugar syrup into roasted suji while whisking constantly to prevent lump formation.\nStep 5: Stir in cardamom powder and fried nuts; cook on low heat until halwa thickens, leaves sides of the pan, and ghee releases on top. Serve hot.",
         youtube: "https://youtu.be",
+    },
+    [
+    {
+        name: "Matar Palak Roti",
+        category: "indianbread",
+        image: "https://media.istockphoto.com/id/1336530997/photo/indian-flatbread-made-with-whole-wheat-flour-kneaded-with-pureed-indian-spinach-and-spices.jpg?b=1&s=612x612&w=0&k=20&c=BYOpP_ooeL6bIUacfEhpZnGd-yhh5hqor3w5Ip7A4f8=",
+        steps: "Ingredients: 2 cups whole wheat flour, 1 cup fresh spinach (blanched & pureed), 1/2 cup green peas (boiled & mashed), 1 tsp cumin seeds, 1/2 tsp carom seeds (ajwain), 1 green chili (finely chopped), 1/2 tsp garamasala, salt to taste, water as needed, 2 tbsp ghee or oil for cooking.\n\nStep 1: In a large mixing bowl, combine whole wheat flour, spinach puree, mashed green peas, cumin seeds, ajwain, green chili, garam masala, and salt.\nStep 2: Gradually add water as needed and knead into a smooth, pliable dough. Cover with a damp cloth and let it rest for 15 minutes.\nStep 3: Divide the dough into equal-sized lemon balls. Roll each ball out on a lightly floured surface into a flat round circle.\nStep 4: Heat a tawa (griddle) on medium-high heat. Place the rolled roti on the hot tawa and cook until small bubbles appear on top.\nStep 5: Flip the roti, apply a little ghee or oil on both sides, and cook pressing gently with a spatula until golden brown spots appear. Serve hot with curd or butter.",
+        youtube: "https://www.youtube.com/watch?v=J9f24I0A4-4",
+    },
+    {
+        name: "Makki Ki Roti",
+        category: "indianbread",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNjyi-QVt1fiMxdUxnDS0VJUB51LOYMGBzQ83u3qWFy_3N9H_eiFH76y27XqablIQMtPbB5772eQms-lqnyrXmWShDj5RcEOzSWe9CmG9&s=10",
+        steps: "Ingredients: 2 cups maize flour (makki ka atta), 1/2 tsp carom seeds (ajwain), 1/2 tsp salt, warm water for kneading, white butter or ghee for serving.\n\nStep 1: In a wide bowl, combine maize flour, carom seeds, and salt.\nStep 2: Slowly add warm water in small increments and knead thoroughly using the palm of your hand until a smooth dough forms.\nStep 3: Take a medium portion of dough, shape it into a ball, and gently flatten it between two sheets of plastic wrap or parchment paper using your hands.\nStep 4: Transfer the flattened roti onto a preheated tawa over medium heat and cook for 1-2 minutes until light brown specks appear.\nStep 5: Flip and cook the other side, applying ghee or white butter, pressing lightly until both sides are well-cooked and crispy. Serve warm with Sarson ka Saag.",
+        youtube: "https://www.youtube.com/watch?v=b4O-b_XU7wA",
+    },
+    {
+        name: "Aloo Ka Paratha",
+        category: "indianbread",
+        image: "https://media.istockphoto.com/id/1220187582/photo/stuffed-dal-paratha-with-curd-pickle-and-white-butter.jpg?b=1&s=612x612&w=0&k=20&c=nHualtwJeFn9SZNA4aja3P1DgvOPLZ80vJ5svUsi6hs=",
+        steps: "Ingredients: 2 cups whole wheat flour, water for kneading, 4 boiled & mashed potatoes, 1 finely chopped onion, 2 green chilies (chopped), 1 tsp red chili powder, 1 tsp coriander powder, 1/2 tsp dry mango powder (amchur), salt to taste, fresh coriander, oil/ghee for frying.\n\nStep 1: Knead whole wheat flour with water into a soft, smooth dough and let it rest for 15 minutes.\nStep 2: In a bowl, mix mashed potatoes, chopped onion, green chilies, red chili powder, coriander powder, amchur, fresh coriander, and salt to prepare the stuffing.\nStep 3: Pinch a small ball of dough, roll it out into a 4-inch circle, place a scoop of potato mixture in the center, and seal the edges tightly.\nStep 4: Dust with dry flour and gently roll it out into a thick paratha circle without breaking the seal.\nStep 5: Cook on a hot tawa with ghee or oil on both sides until golden brown and crispy. Serve hot with fresh curd, pickle, and butter.",
+        youtube: "https://www.youtube.com/watch?v=RWW4A1C81A8",
+    },
+    {
+        name: "Indian White Butter (Makhan)",
+        category: "dairy",
+        image: "https://images.pexels.com/photos/3821250/pexels-photo-3821250.jpeg",
+        steps: "Ingredients: 2 cups collected heavy milk cream (malai), 2 tbsp curd (yogurt) for culturing, ice-cold water, ice cubes.\n\nStep 1: Collect milk cream over several days in the refrigerator; mix in 2 tbsp curd and leave it at room temperature overnight to culture.\nStep 2: Chill the cultured cream in the refrigerator for a few hours before churning.\nStep 3: Transfer the cream into a food processor, blender, or large bowl and churn continuously until butter solids begin to separate from the liquid buttermilk.\nStep 4: Pour ice-cold water and ice cubes into the mixture to allow the butter solids to gather together easily.\nStep 5: Collect the butter into a ball, gently squeeze out excess buttermilk, wash it in fresh cold water twice, and store it chilled. Serve with fresh parathas.",
+        youtube: "https://www.youtube.com/watch?v=VzXqQxQ7vS0",
+    },
+    {
+        name: "Gobi Paratha",
+        category: "indianbread",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NrS281CPmjq6Kq48S1wF4Xk_wvR1QD8i7czYE-wppA&s=10",
+        steps: "Ingredients: 2 cups whole wheat flour, 2 cups grated cauliflower (gobi), 1 green chili (chopped), 1/2 tsp cumin seeds, 1/2 tsp red chili powder, 1/2 tsp garam masala, 1 tsp grated ginger, salt to taste, chopped coriander, ghee/oil for cooking.\n\nStep 1: Squeeze out excess moisture from the grated cauliflower using a clean cloth.\nStep 2: In a bowl, mix the grated gobi with green chili, cumin seeds, red chili powder, garam masala, ginger, coriander, and salt just before rolling.\nStep 3: Roll a dough ball into a small circle, place the cauliflower stuffing in the middle, wrap the edges around it, and pinch to seal.\nStep 4: Carefully roll out the stuffed dough into a paratha, applying dry flour as needed.\nStep 5: Toast on a preheated tawa over medium heat, drizzling ghee on both sides until golden brown spots appear. Serve hot with butter or curd.",
+        youtube: "https://www.youtube.com/watch?v=0k5qN6V5C5E",
+    },
+    {
+        name: "Mooli Paratha",
+        category: "indianbread",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9TFSdwG3zzJ9ciqtQrxjBmckB1YPaS1C3D1Ji_0TkYQ&s=10",
+        steps: "Ingredients: 2 cups wheat flour, 2 medium radishes (mooli) grated, 1 green chili finely chopped, 1 tsp ajwain (carom seeds), 1/2 tsp red chili powder, fresh coriander leaves, salt to taste, ghee for frying.\n\nStep 1: Grate the radish and squeeze tightly using your hands to completely extract all water.\nStep 2: Combine the squeezed radish with chopped green chili, ajwain, red chili powder, coriander leaves, and salt to form the stuffing.\nStep 3: Knead wheat flour into a medium-soft dough with water and let it rest for 10 minutes.\nStep 4: Roll a small ball of dough into a circle, fill with 2 tbsp of radish mixture, gather the ends to enclose the stuffing, and roll it flat gently.\nStep 5: Cook the paratha on a hot griddle with ghee on both sides until golden brown and flaky. Serve hot with yogurt or pickle.",
+        youtube: "https://www.youtube.com/watch?v=XW3V9YQnZ2c",
+    },
+    {
+        name: "Rumali Roti",
+        category: "indianbread",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9TFSdwG3zzJ9ciqtQrxjBmckB1YPaS1C3D1Ji_0TkYQ&s=10",
+        steps: "Ingredients: 1.5 cups all-purpose flour (maida), 1/2 cup whole wheat flour, 1/2 tsp salt, 2 tbsp oil, 3/4 cup warm milk or water for kneading, extra flour for dusting, salty water solution for spraying.\n\nStep 1: Mix maida, wheat flour, salt, and oil in a bowl. Slowly add warm milk/water and knead into an extremely soft, sticky dough for 10 minutes.\nStep 2: Cover the dough with a damp cloth and allow it to rest for at least 30 minutes.\nStep 3: Heat an inverted iron wok (kadhai) on high heat and spray it with a salt-water solution to prevent sticking.\nStep 4: Take a small dough ball, dust heavily with dry flour, and roll it out as thin as paper. Toss and stretch it gently using your hands/wrists.\nStep 5: Drape the paper-thin roti over the hot inverted wok. Cook for 10-15 seconds until small bubbles appear, flip briefly, fold into a handkerchief shape, and serve immediately.",
+        youtube: "https://www.youtube.com/watch?v=M2_o3S7kY2E",
+    },
+    {
+        name: "Classic Croissant",
+        category: "westerndessert",
+        image: "https://images.pexels.com/photos/3806365/pexels-photo-3806365.jpeg",
+        steps: "Ingredients: 4 cups bread flour, 1/3 cup sugar, 2 tsp salt, 1 tbsp instant yeast, 1.25 cups cold water, 1 cup unsalted butter (cold, for butter block), 1 egg (for egg wash).\n\nStep 1: Combine flour, sugar, salt, yeast, and cold water in a bowl; knead into a dough and chill in the refrigerator for 1 hour.\nStep 2: Pound cold butter into a flat 7x7-inch square block. Roll dough into a 10x10-inch square, place butter block diagonally in the center, wrap dough over it, and seal edges.\nStep 3: Roll the dough out into a long rectangle and perform a classic envelope fold (3-fold). Chill for 30 minutes; repeat this rolling and folding process 2 more times.\nStep 4: Roll the laminated dough into a large thin rectangle and slice into elongated triangles. Roll each triangle from the base to the tip to form croissant shapes.\nStep 5: Let them rise for 2 hours until puffy, brush with egg wash, and bake at 200°C (390°F) for 18-20 minutes until golden brown and flaky.",
+        youtube: "https://www.youtube.com/watch?v=beP0C_419q0",
     }
+]
     
 
 ];
