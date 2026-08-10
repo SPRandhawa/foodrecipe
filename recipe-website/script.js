@@ -79,7 +79,7 @@ const recipes = [
     {
         "name": "North Indian Veg Thali",
         "category": "indian",
-        "image": "https://images.pexels.com/photos/12737800/pexels-photo-12737800.jpeg",
+        "image": "https://images.pexels.com/photos/5775684/pexels-photo-5775684.jpeg",
         "steps": "Ingredients: 1/2 cup yellow lentils (toor dal), 1 cup basmati rice, 2 cups whole wheat flour (for rotis), 1 tsp cumin seeds, 2 tbsp ghee, 1 chopped tomato, 1 chopped onion, turmeric, salt, spices.\n\nStep 1: Pressure cook yellow lentils with salt, turmeric, and water for 4 whistles to make Dal.\nStep 2: In a pot, cook washed basmati rice with cumin seeds tempered in 1 tsp ghee.\nStep 3: Heat 1 tbsp ghee in a pan, add cumin, chopped onions, and tomatoes to prepare temper, then pour into cooked dal.\nStep 4: Knead wheat flour with water into soft dough, roll out thin flatbreads (rotis), and cook on a hot griddle until puffed.\nStep 5: Plate cumin rice, hot dal, puffed rotis, salad, and pickles together on a round thali plate.",
         "youtube": "https://youtu.be"
     },
@@ -93,56 +93,49 @@ const recipes = [
     {
         "name": "Chole Bhature",
         "category": "indian",
-        "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg",
+        "image": "https://media.istockphoto.com/id/979914742/photo/chole-bhature-or-chick-pea-curry-and-fried-puri-served-in-terracotta-crockery-over-white.jpg?s=2048x2048&w=is&k=20&c=zhmGombUCMWWkdI2COP1vh1bDma-3wS_FOv4GmHE41s=",
         "steps": "Ingredients: 1 cup soaked chickpeas (chole), 2 pureed tomatoes, 1 chopped onion, 1 tbsp chole masala, 2 cups all-purpose flour (maida), 2 tbsp semolina (sooji), 1/2 cup curd, oil for deep frying.\n\nStep 1: Pressure cook soaked chickpeas with tea bag, salt, and water for 6 whistles until soft.\nStep 2: Heat 2 tbsp oil in a pan, sauté onions, add pureed tomatoes, chole masala, and cook until oil separates. Mix cooked chickpeas and simmer for 10 minutes.\nStep 3: For bhature, knead all-purpose flour, semolina, curd, pinch of baking powder, and warm water into soft dough. Rest for 2 hours.\nStep 4: Roll dough into oval discs.\nStep 5: Deep-fry in hot oil until bhature puff up golden on both sides. Serve hot with spicy chole.",
         "youtube": "https://youtu.be"
     },
     {
         "name": "Palak Paneer",
         "category": "indian",
-        "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+        "image": "https://images.pexels.com/photos/17200452/pexels-photo-17200452.jpeg",
         "steps": "Ingredients: 200g spinach leaves (palak), 200g paneer cubes, 1 chopped onion, 1 tbsp ginger-garlic paste, 2 green chilies, 1/2 tsp cumin seeds, 2 tbsp fresh cream, 1 tbsp butter/oil, salt.\n\nStep 1: Blanch spinach leaves in boiling water for 2 minutes, plunge into ice water, and blend into smooth puree with green chilies.\nStep 2: Heat butter in a pan, add cumin seeds, chopped onions, and ginger-garlic paste. Fry until light brown.\nStep 3: Add spinach puree, salt, and 1/4 cup water. Simmer on medium flame for 5 minutes.\nStep 4: Add raw or lightly pan-seared paneer cubes into gravy.\nStep 5: Stir in fresh cream, cook for another 2 minutes, and serve hot with naan or rice.",
         "youtube": "https://youtu.be"
     },
     {
         "name": "Falafel Wrap",
         "category": "western",
-        "image": "https://images.pexels.com/photos/6287525/pexels-photo-6287525.jpeg",
+        "image": "https://images.pexels.com/photos/27556250/pexels-photo-27556250.jpeg",
         "steps": "Ingredients: 1 cup soaked chickpeas, 1/2 cup fresh parsley, 3 garlic cloves, 1 tsp cumin, 1/2 cup flour, flatbreads/pita, tahini sauce, chopped lettuce, tomatoes, cucumbers.\n\nStep 1: Blend soaked chickpeas, parsley, garlic, cumin, salt, and flour in a food processor until coarse mix.\nStep 2: Shape mixture into small balls or thick patties.\nStep 3: Deep-fry or bake falafels at 190°C until golden brown and crispy on exterior.\nStep 4: Warm flatbreads or pita pockets on skillet.\nStep 5: Spread tahini sauce on flatbread, layer with shredded lettuce, chopped tomatoes, cucumbers, place hot falafel balls, wrap tightly, and serve.",
-        "youtube": "https://youtu.be"
-    },
-    {
-        "name": "Gado-Gado",
-        "category": "western",
-        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
-        "steps": "Ingredients: 1 cup blanched spinach/cabbage, 1/2 cup bean sprouts, 1 cup fried tofu cubes, 1 cup fried tempeh, 2 boiled eggs, 1/2 cup peanut butter, 1 tbsp palm sugar, 1 tbsp lime juice, 1 garlic clove, soy sauce.\n\nStep 1: Blanch cabbage, bean sprouts, and spinach in boiling water for 1 minute, then drain.\nStep 2: Fry tofu cubes and tempeh in oil until golden crispy.\nStep 3: Blend peanut butter, minced garlic, palm sugar, lime juice, soy sauce, and warm water into smooth sweet-savory peanut dressing.\nStep 4: Arrange blanched veggies, fried tofu, tempeh, and sliced hard-boiled eggs on platter.\nStep 5: Pour prepared peanut sauce generously over top and serve with crackers.",
         "youtube": "https://youtu.be"
     },
     {
         "name": "Vegetarian Bibimbap",
         "category": "western",
-        "image": "https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg",
+        "image": "https://media.istockphoto.com/id/1404679258/photo/korean-vegetarian-bibimbap-fried-tofu-bento-box-hot-stone-bowl-with-salads-kimchi-bibimbap.jpg?s=2048x2048&w=is&k=20&c=FcZHvBqMFOBK5CLBAnubbqJpMOcmJ06T_Q2q4fzd6t8=",
         "steps": "Ingredients: 2 cups cooked warm rice, 1/2 cup sautéed spinach, 1/2 cup sautéed carrots, 1/2 cup sautéed zucchini, 1/2 cup sautéed mushrooms, 1 egg (or pan-fried tofu), 2 tbsp Gochujang (Korean chili paste), 1 tsp sesame oil.\n\nStep 1: Cook short-grain white or brown rice.\nStep 2: Individually sauté spinach, julienned carrots, sliced zucchini, and mushrooms in sesame oil with salt.\nStep 3: Fry an egg sunny-side up (or fry tofu slices).\nStep 4: Scoop warm cooked rice into a bowl base.\nStep 5: Arrange sautéed vegetables side-by-side over rice, top with fried egg in center, and serve with Gochujang paste.",
         "youtube": "https://youtu.be"
     },
     {
         "name": "Khachapuri",
         "category": "western",
-        "image": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg",
+        "image": "https://images.pexels.com/photos/17027447/pexels-photo-17027447.jpeg",
         "steps": "Ingredients: 2 cups bread flour, 1/2 tsp yeast, 3/4 cup warm water, 1/2 cup mozzarella, 1/2 cup feta/suluguni cheese, 1 egg yolk, 1 tbsp butter, salt.\n\nStep 1: Mix flour, yeast, salt, water, and knead into soft dough. Let rise for 1 hour.\nStep 2: Mix shredded mozzarella and crumbled feta cheese in a bowl.\nStep 3: Roll dough into oval shape, roll up opposite edges inward to form boat shape, and pinch ends closed.\nStep 4: Fill center boat cavity generously with cheese mixture.\nStep 5: Bake at 220°C (425°F) for 15 minutes, make a small well in center cheese, drop egg yolk with butter slice, bake 2 minutes more, and mix egg into hot cheese before eating.",
         "youtube": "https://youtu.be"
     },
     {
         "name": "Rasgulla",
         "category": "indiandessert",
-        "image": "https://images.pexels.com/photos/14457224/pexels-photo-14457224.jpeg",
+        "image": "https://media.istockphoto.com/id/495022082/photo/indian-sweet-rasgulla-is-a-syrupy-dessert-indian-cottage-cheese.jpg?b=1&s=612x612&w=0&k=20&c=TSpoDZ-UUnja-OnuoIPDNE_fpVJjmFVAmDAy7dv9slw=",
         "steps": "Ingredients: 1 liter cow milk, 2 tbsp lemon juice, 1 cup sugar, 4 cups water, 1/4 tsp cardamom powder.\n\nStep 1: Boil milk, turn off flame, stir in diluted lemon juice to curdle, then strain whey using cheesecloth.\nStep 2: Rinse fresh chenna under cold tap water and squeeze thoroughly to eliminate whey moisture.\nStep 3: Knead chenna on flat counter with heel of palm for 8-10 minutes until smooth and non-greasy, then roll into small smooth balls.\nStep 4: Boil sugar and 4 cups water in deep pot until bubbling high.\nStep 5: Drop chenna balls into boiling syrup, cover tight, and cook on high flame for 15 minutes until expanded and spongy. Serve chilled.",
         "youtube": "https://youtu.be"
     },
     {
         "name": "Kheer",
         "category": "indiandessert",
-        "image": "https://images.pexels.com/photos/12737798/pexels-photo-12737798.jpeg",
+        "image": "https://images.pexels.com/photos/31109623/pexels-photo-31109623.jpeg",
         "steps": "Ingredients: 1 liter full-fat milk, 1/4 cup basmati rice (soaked for 30 minutes), 1/2 cup sugar, 4 crushed cardamom pods, 10 saffron strands, 2 tbsp sliced almonds and pistachios.\n\nStep 1: Rinse basmati rice and coarsely crush soaked grains using fingers.\nStep 2: Bring full-fat milk to boil in heavy-bottom pot, then lower flame.\nStep 3: Add crushed rice and cook on low heat for 25 minutes, stirring continuously to prevent sticking.\nStep 4: Once rice turns soft and milk thickens to creamy consistency, stir in sugar, saffron, and cardamom powder.\nStep 5: Simmer for another 5 minutes, garnish with sliced almonds and pistachios, and serve hot or chilled.",
         "youtube": "https://youtu.be"
     }
