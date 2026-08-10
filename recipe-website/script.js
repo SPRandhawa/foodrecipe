@@ -663,7 +663,57 @@ const recipes = [
         image: "https://images.pexels.com/photos/8876156/pexels-photo-8876156.jpeg",
         steps: "Ingredients: 4 eggs, 1/2 cup granulated sugar, 1/2 cup all-purpose flour (maida), 1 tsp vanilla extract, 1/2 tsp baking powder, 1/4 tsp salt, 3/4 cup whipped cream or strawberry jam, powdered sugar for dusting.\n\nStep 1: Beat eggs and sugar using an electric mixer for 5-7 minutes until pale, thick, and fluffy.\nStep 2: Gently fold in sifted all-purpose flour, baking powder, salt, and vanilla extract until just combined.\nStep 3: Spread batter evenly on a lined baking tray and bake at 190°C (375°F) for 10-12 minutes until springy to touch.\nStep 4: Turn hot cake onto a parchment paper dusted with powdered sugar, peel off baking paper, and roll tightly while still warm; let cool completely.\nStep 5: Unroll gently, spread a thick layer of whipped cream or jam, roll it back up, chill for 1 hour, slice, and serve.",
         youtube: "https://youtu.be",
+    },
+    {
+        name: "Khaman Dhokla",
+        category: "indian",
+        image: "https://images.pexels.com/photos/35041878/pexels-photo-35041878.jpeg",
+        steps: "Ingredients: 1.5 cups besan (gram flour), 1 tbsp semolina (sooji), 1 tbsp lemon juice, 1 tsp Eno fruit salt, 1 tsp green chili-ginger paste, 1/4 tsp turmeric, 1 tbsp sugar, salt, 1 tbsp oil.\nFor Tempering: 1 tbsp oil, 1 tsp mustard seeds, 1 tsp sesame seeds, 2 green chilies (slit), 10 curry leaves, 1 tsp sugar, 1/3 cup water, fresh coriander, grated coconut.\n\nStep 1: Whisk besan, sooji, turmeric, sugar, salt, green chili-ginger paste, lemon juice, oil, and water into a smooth, medium-thick batter.\nStep 2: Grease a dhokla plate/tin. Stir Eno into batter with 1 tsp water until frothy, then quickly pour into tin.\nStep 3: Steam high for 12-15 minutes until a toothpick inserted comes out clean; cool slightly and cut into squares.\nStep 4: Prepare tempering: Heat oil, crackle mustard and sesame seeds, add chilies and curry leaves, then pour in water and sugar; bring to a boil.\nStep 5: Spoon warm tempering liquid evenly over dhokla squares, garnish with coriander and grated coconut, and serve.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Veg Lasagna",
+        category: "italian",
+        image: "https://images.pexels.com/photos/16845653/pexels-photo-16845653.jpeg",
+        steps: "Ingredients: 9 lasagna sheets, 2 cups marinara/red sauce, 1.5 cups white béchamel sauce, 2 cups mixed chopped veggies (zucchini, bell peppers, spinach, mushrooms), 2 cups shredded mozzarella, 1/2 cup ricotta or cottage cheese, olive oil, garlic, Italian herbs, salt, pepper.\n\nStep 1: Boil lasagna sheets until al dente, drain, and separate on a oiled tray; sauté veggies with garlic, olive oil, and herbs.\nStep 2: Spread a thin layer of red sauce on the bottom of a baking dish.\nStep 3: Lay down a layer of lasagna sheets, top with sautéed veggies, red sauce, white sauce, and a handful of mozzarella and ricotta cheese.\nStep 4: Repeat layers twice, finishing with a generous coating of white sauce and shredded mozzarella on top.\nStep 5: Cover with foil and bake at 190°C (375°F) for 25 minutes, then unwrap and bake 10-12 minutes more until cheese is bubbly and golden. Rest 10 minutes before slicing.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Fresh Fruit Salad",
+        category: "westerndessert",
+        image: "https://images.pexels.com/photos/16170228/pexels-photo-16170228.jpeg",
+        steps: "Ingredients: 1 cup chopped apples, 1 cup chopped strawberries, 1/2 cup blueberries, 1 cup green & black grapes (halved), 1 cup chopped pineapple, 1 kiwi (sliced), 2 tbsp orange juice, 1 tbsp honey, 1 tsp lemon juice, mint leaves for garnish.\n\nStep 1: Wash, peel, and chop all fresh fruits into uniform bite-sized pieces.\nStep 2: Combine apples, strawberries, blueberries, grapes, pineapple, and kiwi in a large mixing bowl.\nStep 3: Whisk fresh orange juice, honey, and lemon juice together in a small bowl to create a light citrus dressing.\nStep 4: Pour dressing over mixed fruits and toss gently to coat evenly without crushing delicate berries.\nStep 5: Garnish with fresh mint leaves and serve chilled.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Amravati Sweet (Pootharekulu)",
+        category: "indiandessert",
+        image: "https://images.pexels.com/photos/18488314/pexels-photo-18488314.jpeg",
+        steps: "Ingredients: Rice starch sheets (pootharekulu sheets/rice paper), 1 cup powdered sugar or jaggery, 1/2 cup melted ghee, 1/4 cup finely chopped cardamom-flavored dry fruits (cashews, pistachios, almonds).\n\nStep 1: Lay a delicate rice starch sheet flat on a clean surface and brush gently with melted ghee.\nStep 2: Sprinkle an even layer of powdered sugar (or jaggery powder) and chopped dry fruits over the sheet.\nStep 3: Place another rice starch sheet over it, brush with more melted ghee, and add another light layer of sugar and dry fruits.\nStep 4: Carefully fold the edges inward and roll tightly into a neat rectangular or cylindrical paper-thin roll.\nStep 5: Cut into serving pieces and serve this crisp, melt-in-the-mouth sweet delicacy.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Masala Makhana",
+        category: "indian",
+        image: "https://images.pexels.com/photos/11463783/pexels-photo-11463783.jpeg",
+        steps: "Ingredients: 2 cups foxnuts (makhana), 1 tbsp ghee, 1/2 tsp chaat masala, 1/2 tsp red chili powder, 1/4 tsp turmeric, 1/4 tsp black salt, regular salt to taste.\n\nStep 1: Heat ghee in a pan on low-medium flame and add the foxnuts.\nStep 2: Dry roast makhana continuously for 8-10 minutes until they turn crispy and break easily with a crunch when pressed.\nStep 3: Push roasted makhana to the sides of the pan and lower heat completely.\nStep 4: Add turmeric, red chili powder, chaat masala, black salt, and regular salt directly into the warm ghee in the center.\nStep 5: Toss makhana vigorously to coat evenly with the warm spices, turn off heat, let cool completely, and serve or store in an airtight jar.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Soan Papdi",
+        category: "indiandessert",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN_gZt24llRJP9KLz2LsOe1c3u1VMBnNEISl4DZSiGkA&s=10",
+        steps: "Ingredients: 1 cup gram flour (besan), 1 cup all-purpose flour (maida), 1 cup ghee, 1.5 cups sugar, 3/4 cup water, 1 tbsp milk, 1/2 tsp cardamom powder, chopped pistachios and almonds.\n\nStep 1: Sift besan and maida together into a bowl. Heat ghee in a heavy pan, add flour mixture, and roast on low flame until golden and fragrant; set aside.\nStep 2: Boil sugar, water, and milk in a pan to make sugar syrup. Cook until it reaches a hard ball consistency (around 250°F/120°C).\nStep 3: Pour hot syrup onto a greased tray, let cool slightly, and pull repeatedly using forks or greased hands until pale and stretchy.\nStep 4: Incorporate the roasted flour mixture into the pulled sugar syrup, folding and pulling continuously to create fine flaky strands.\nStep 5: Press flaky mixture gently into a greased shallow tray sprinkled with cardamom, almonds, and pistachios. Cut into squares once cooled.",
+        youtube: "https://youtu.be",
+    },
+    {
+        name: "Malpua",
+        category: "indiandessert",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCn6VwcXz-F-fJcl1LCGP67I6SCHdWQklhr32V_GlNxg&s=10",
+        steps: "Ingredients: 1 cup all-purpose flour (maida), 1/2 cup khoya (mawa) or milk powder, 1/2 cup warm milk, 1/4 tsp fennel seeds (saunf), 1/4 tsp cardamom powder, pinch of baking soda, ghee for frying.\nFor Sugar Syrup: 1 cup sugar, 1/2 cup water, saffron strands, 1/2 tsp cardamom powder.\n\nStep 1: Boil sugar, water, and saffron until sticky 1-thread syrup forms; keep warm.\nStep 2: Whisk maida, crumbled khoya, crushed fennel seeds, cardamom, and warm milk into a smooth, pourable batter; rest for 30 minutes.\nStep 3: Stir in a pinch of baking soda.\nStep 4: Heat ghee in a shallow pan, pour a small ladle of batter in the center to form a small pancake, and fry on medium flame until edges turn crispy golden.\nStep 5: Remove malpua, drain excess ghee, soak directly in warm sugar syrup for 2 minutes, and serve hot topped with rabri or nuts.",
+        youtube: "https://youtu.be",
     }
+    
 
 ];
 
