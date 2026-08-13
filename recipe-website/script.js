@@ -960,14 +960,14 @@ const recipes = [
     },
     {
         name: "Veg Manchurian",
-        category: "chinses",
+        category: "chinese",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEGhxHXl31kkZm069HWpX_9uxSyvz_d5YzM9rW5JwJqnBg_7m0JXkR91ua6mc56z-7ilemVmEjI5gn8UAEVHclA7aozgfckaqrxE3eNf_z&s=10",
         steps: "Ingredients: 2 cups finely grated cabbage & carrots, 1/4 cup spring onions, 3 tbsp cornstarch, 2 tbsp all-purpose flour, 1 tsp ginger-garlic paste, 1 tbsp soy sauce, 1 tbsp chili sauce, 1 tbsp tomato ketchup, 1 tsp vinegar, oil for deep frying, salt & black pepper to taste.\n\nStep 1: In a bowl, combine grated cabbage, carrots, spring onions, ginger-garlic paste, cornstarch, flour, salt, and pepper. Knead together and shape into small balls.\nStep 2: Heat oil in a deep pan and deep fry the veggie balls on medium flame until golden brown and crispy. Drain on paper towels.\nStep 3: In a wok, heat 1 tbsp oil, add chopped garlic, ginger, green chilies, and spring onion whites; sauté on high heat for a minute.\nStep 4: Stir in soy sauce, chili sauce, tomato ketchup, vinegar, black pepper, and 1/2 cup water. Add a slurry of 1 tsp cornstarch mixed in 2 tbsp water to thicken sauce.\nStep 5: Toss the fried Manchurian balls into the sauce on high heat for 1-2 minutes until well coated. Garnish with chopped spring onion greens and serve hot.",
         youtube: "https://www.youtube.com/watch?v=57uXe51Fwns",
     },
     {
         name: "Kung Pao Tofu",
-        category: "chinses",
+        category: "chinese",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdic05KEVlxuwVJFAgMvyp8NgWen6JlMb-HJVEnF-naw&s=10",
         steps: "Ingredients: 200g firm tofu (cubed), 2 tbsp cornstarch, 1/4 cup roasted peanuts, 1 bell pepper (diced), 4-5 dried red chilies, 1 tbsp minced ginger & garlic, 2 tbsp soy sauce, 1 tbsp rice vinegar, 1 tbsp hoisin or chili sauce, 1 tsp sugar, 2 tbsp sesame oil.\n\nStep 1: Press tofu to drain excess water, cut into cubes, toss with cornstarch and a pinch of salt.\nStep 2: Heat 1 tbsp sesame oil in a pan and pan-fry tofu cubes until crispy and golden on all sides. Set aside.\nStep 3: In the same pan, heat remaining oil. Add dried red chilies, minced ginger, and garlic; sauté for 30 seconds until fragrant.\nStep 4: Add diced bell peppers and roasted peanuts. Stir-fry on high heat for 2 minutes.\nStep 5: Whisk together soy sauce, rice vinegar, hoisin sauce, sugar, and 2 tbsp water. Pour into the pan, add fried tofu, and toss on high heat until sauce coats everything evenly.",
         youtube: "https://www.youtube.com/watch?v=ju9H1RlYNxk",
