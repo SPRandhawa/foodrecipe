@@ -11,7 +11,7 @@ const recipes = [
         category: "Italian",
         image: "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg",
         steps: "Ingredients: 1/2 cup dark chocolate (chopped), 3 tbsp butter, 1/2 cup all-purpose flour, 1/4 cup powdered sugar, 2 tbsp cocoa powder, 1/2 tsp baking powder, 1/2 cup warm milk, 1 tsp vanilla extract.\n\nStep 1: Melt chopped dark chocolate and butter together in a heatproof bowl set over simmering water (double boiler) until glossy and smooth; let it cool slightly.\nStep 2: Sift all-purpose flour, powdered sugar, cocoa powder, and baking powder into a bowl.\nStep 3: Pour warm milk, vanilla extract, and melted chocolate mixture into the dry ingredients. Whisk until a smooth, lump-free batter forms.\nStep 4: Grease ramekins with butter and dust with cocoa powder. Pour batter into ramekins until 3/4 full, then drop a piece of dark chocolate into the center.\nStep 5: Bake in a preheated oven at 200°C (400°F) for 10-12 minutes until sides are set but center remains soft. Invert onto a plate and serve warm with vanilla ice cream.",
-        youtube: "https://www.youtube.com/watch?v=ju9H1RlYNxk",
+        youtube: "https://youtu.be/NWGrWnKH7RA?si=JkMJqMXsBYz9eFlg",
     },
     {
         name: "Rasmalai",
@@ -74,7 +74,7 @@ const recipes = [
         category: "indiandessert",
         image: "https://t3.ftcdn.net/jpg/07/11/42/02/240_F_711420295_BiOlcl1vmtZaqdSwmP5r372ZYs58aEhb.jpg",
         steps: "Ingredients: 1 cup all-purpose flour (maida), 2 tbsp cornflour, 1/2 cup yogurt, 1/2 tsp baking soda, 1 cup sugar, 1/2 cup water, pinch of saffron/orange food color, 1 tsp lemon juice, oil or ghee for frying.\n\nStep 1: Whisk all-purpose flour, cornflour, yogurt, food color, and water into a smooth batter. Ferment for 8 hours (or use baking soda for instant batter).\nStep 2: Boil sugar and 1/2 cup water until 1-string consistency. Stir in lemon juice and saffron, then keep warm.\nStep 3: Pour the fermented batter into a squeeze bottle or cloth piping bag with a small hole.\nStep 4: Heat oil in a flat-bottomed pan on medium heat. Squeeze batter in concentric spiral rings directly into oil.\nStep 5: Fry until crisp and golden on both sides, transfer instantly into warm sugar syrup for 1 minute, drain, and serve hot.",
-        youtube: "https://youtu.be",
+        youtube: "https://youtu.be/0w471_wMPP0?si=RdtQxmVSMjh7_er8",
     },
     {
         name: "Pizza",
@@ -88,14 +88,14 @@ const recipes = [
         category: "indian",
         image: "https://images.pexels.com/photos/5775684/pexels-photo-5775684.jpeg",
         steps: "Ingredients: 1/2 cup yellow lentils (toor dal), 1 cup basmati rice, 2 cups whole wheat flour (for rotis), 1 tsp cumin seeds, 2 tbsp ghee, 1 chopped tomato, 1 chopped onion, turmeric, salt, spices.\n\nStep 1: Pressure cook yellow lentils with salt, turmeric, and water for 4 whistles to make Dal.\nStep 2: In a pot, cook washed basmati rice with cumin seeds tempered in 1 tsp ghee.\nStep 3: Heat 1 tbsp ghee in a pan, add cumin, chopped onions, and tomatoes to prepare temper, then pour into cooked dal.\nStep 4: Knead wheat flour with water into soft dough, roll out thin flatbreads (rotis), and cook on a hot griddle until puffed.\nStep 5: Plate cumin rice, hot dal, puffed rotis, salad, and pickles together on a round thali plate.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/EGmDUnhRvD8?si=U_8OW1wshZK9i-Ol",
     },
     {
         name: "Masala Dosa",
         category: "indian",
         image: "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
         steps: "Ingredients: 2 cups dosa batter (fermented rice and urad dal batter), 3 boiled mashed potatoes, 1 sliced onion, 1 tsp mustard seeds, 1/2 tsp turmeric, curry leaves, 2 green chilies, oil/butter.\n\nStep 1: Heat 1 tbsp oil in a pan, add mustard seeds, curry leaves, chopped chilies, and sliced onions until soft.\nStep 2: Stir in turmeric, salt, mashed potatoes, and 3 tbsp water. Cook for 3 minutes to form potato masala.\nStep 3: Heat a flat non-stick tawa griddle, sprinkle water drops, and wipe clean.\nStep 4: Pour a ladleful of fermented dosa batter in center and spread thin in circular motion outward.\nStep 5: Drizzle oil around edges, cook until golden and crisp, place potato filling in center, fold, and serve with chutney.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/P-u2wq8RVp4?si=bqe3N_K70f4J7juR",
     },
     {
         name: "Chole Bhature",
@@ -116,7 +116,7 @@ const recipes = [
         category: "western",
         image: "https://images.pexels.com/photos/27556250/pexels-photo-27556250.jpeg",
         steps: "Ingredients: 1 cup soaked chickpeas, 1/2 cup fresh parsley, 3 garlic cloves, 1 tsp cumin, 1/2 cup flour, flatbreads/pita, tahini sauce, chopped lettuce, tomatoes, cucumbers.\n\nStep 1: Blend soaked chickpeas, parsley, garlic, cumin, salt, and flour in a food processor until coarse mix.\nStep 2: Shape mixture into small balls or thick patties.\nStep 3: Deep-fry or bake falafels at 190°C until golden brown and crispy on exterior.\nStep 4: Warm flatbreads or pita pockets on skillet.\nStep 5: Spread tahini sauce on flatbread, layer with shredded lettuce, chopped tomatoes, cucumbers, place hot falafel balls, wrap tightly, and serve.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/bBNQ-j4KBDY?si=N2XLnL2yUCgmKW-U",
     },
     {
         name: "Vegetarian Bibimbap",
@@ -130,42 +130,42 @@ const recipes = [
         category: "western",
         image: "https://images.pexels.com/photos/17027447/pexels-photo-17027447.jpeg",
         steps: "Ingredients: 2 cups bread flour, 1/2 tsp yeast, 3/4 cup warm water, 1/2 cup mozzarella, 1/2 cup feta/suluguni cheese, 1 egg yolk, 1 tbsp butter, salt.\n\nStep 1: Mix flour, yeast, salt, water, and knead into soft dough. Let rise for 1 hour.\nStep 2: Mix shredded mozzarella and crumbled feta cheese in a bowl.\nStep 3: Roll dough into oval shape, roll up opposite edges inward to form boat shape, and pinch ends closed.\nStep 4: Fill center boat cavity generously with cheese mixture.\nStep 5: Bake at 220°C (425°F) for 15 minutes, make a small well in center cheese, drop egg yolk with butter slice, bake 2 minutes more, and mix egg into hot cheese before eating.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/R6idw4Rvrsk?si=sft2-S4r0MLSEMPD",
     },
     {
         name: "Rasgulla",
         category: "indiandessert",
         image: "https://media.istockphoto.com/id/495022082/photo/indian-sweet-rasgulla-is-a-syrupy-dessert-indian-cottage-cheese.jpg?b=1&s=612x612&w=0&k=20&c=TSpoDZ-UUnja-OnuoIPDNE_fpVJjmFVAmDAy7dv9slw=",
         steps: "Ingredients: 1 liter cow milk, 2 tbsp lemon juice, 1 cup sugar, 4 cups water, 1/4 tsp cardamom powder.\n\nStep 1: Boil milk, turn off flame, stir in diluted lemon juice to curdle, then strain whey using cheesecloth.\nStep 2: Rinse fresh chenna under cold tap water and squeeze thoroughly to eliminate whey moisture.\nStep 3: Knead chenna on flat counter with heel of palm for 8-10 minutes until smooth and non-greasy, then roll into small smooth balls.\nStep 4: Boil sugar and 4 cups water in deep pot until bubbling high.\nStep 5: Drop chenna balls into boiling syrup, cover tight, and cook on high flame for 15 minutes until expanded and spongy. Serve chilled.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/7VDWtgqDun4?si=iZnqOoXQIyvxhfhY",
     },
     {
         name: "Kheer",
         category: "indiandessert",
         image: "https://images.pexels.com/photos/31109623/pexels-photo-31109623.jpeg",
         steps: "Ingredients: 1 liter full-fat milk, 1/4 cup basmati rice (soaked for 30 minutes), 1/2 cup sugar, 4 crushed cardamom pods, 10 saffron strands, 2 tbsp sliced almonds and pistachios.\n\nStep 1: Rinse basmati rice and coarsely crush soaked grains using fingers.\nStep 2: Bring full-fat milk to boil in heavy-bottom pot, then lower flame.\nStep 3: Add crushed rice and cook on low heat for 25 minutes, stirring continuously to prevent sticking.\nStep 4: Once rice turns soft and milk thickens to creamy consistency, stir in sugar, saffron, and cardamom powder.\nStep 5: Simmer for another 5 minutes, garnish with sliced almonds and pistachios, and serve hot or chilled.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/9aP9y2LHEIA?si=H7B_m58LtReWHDyK",
     },
         {
         name: "Waffles",
         category: "westerndessert",
         image: "https://images.pexels.com/photos/36999587/pexels-photo-36999587.jpeg",
         steps: "Ingredients: 1 cup all-purpose flour, 1 tsp baking powder, 1 tbsp sugar, 1/4 tsp salt, 3/4 cup milk, 2 tbsp melted butter, 1 tsp vanilla extract, maple syrup or berries for serving.\n\nStep 1: Preheat your waffle iron according to the manufacturer's instructions.\nStep 2: In a large bowl, whisk together the all-purpose flour, baking powder, sugar, and salt.\nStep 3: Pour in the milk, melted butter, and vanilla extract. Whisk gently until just combined (minor lumps are fine).\nStep 4: Lightly grease the waffle iron plates with oil or butter spray.\nStep 5: Pour the batter onto the hot iron, close, and cook for 4 to 5 minutes until golden brown and crisp. Serve hot with maple syrup.",
-        youtube: "https://youtu.be",
+        youtube: "https://youtu.be/hA_6WgDegQ8?si=483aNHoofKh7AU82",
     },
     {
         name: "Idli",
         category: "indian",
         image: "https://images.pexels.com/photos/4331491/pexels-photo-4331491.jpeg",
         steps: "Ingredients: 3 cups parboiled rice, 1 cup whole skinned urad dal (black gram), 1 tsp fenugreek seeds, salt to taste, oil for greasing.\n\nStep 1: Wash and soak rice and urad dal (with fenugreek seeds) in separate bowls of water for 4 to 6 hours.\nStep 2: Grind the urad dal into a fluffy paste and the rice into a slightly coarse batter. Mix both together with salt.\nStep 3: Cover and let the batter ferment in a warm place for 8 to 12 hours until it rises and doubles in volume.\nStep 4: Grease idli mould plates with oil and gently pour the fermented batter into each cavity.\nStep 5: Steam in an idli cooker or steamer on medium-high heat for 10 to 12 minutes. Let cool slightly before scooping out.",
-        youtube: "https://youtu.be",
+        youtube: "https://youtu.be/dcMlG1UA-jU?si=apsmdM0P2JJqmach",
     },
     {
         name: "Vegetable Stew",
         category: "western",
         image: "https://images.pexels.com/photos/5378533/pexels-photo-5378533.jpeg",
         steps: "Ingredients: 1 cup cubed potatoes, 1/2 cup chopped carrots, 1/2 cup green peas, 1 small onion (chopped), 2 cloves garlic (minced), 2 cups vegetable broth, 1 tbsp olive oil, 1 tsp dried thyme, salt, and black pepper.\n\nStep 1: Heat olive oil in a large deep pot over medium heat.\nStep 2: Add the minced garlic and chopped onions, sautéing for 2 to 3 minutes until translucent.\nStep 3: Toss in the potatoes, carrots, and green peas. Stir-fry everything together for about 2 minutes.\nStep 4: Pour in the vegetable broth and season with dried thyme, salt, and black pepper.\nStep 5: Bring to a boil, then cover and simmer on low heat for 20 minutes until the vegetables are completely tender.",
-        youtube: "https://youtu.be",
+        youtube: "https://youtu.be/n2-QP4E0Sjc?si=l80IQ2azkDwqOYEF",
     },
     {
         name: "Veg Shepherd's Pie",
