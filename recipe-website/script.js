@@ -53,14 +53,14 @@ const recipes = [
         category: "western",
         image: "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
         steps: "Ingredients: 2 burger buns, 1 cup boiled mashed potatoes, 1/2 cup boiled mixed veggies (peas, corn, carrots), 1/2 tsp cumin powder, 1/2 tsp chili powder, 1/2 cup breadcrumbs, 2 tbsp mayonnaise, lettuce, sliced tomato, cucumber, cheese slice, butter.\n\nStep 1: In a bowl, combine mashed potatoes, mixed veggies, cumin powder, chili powder, and salt. Mix thoroughly.\nStep 2: Shape the mixture into thick patties and coat each patty with breadcrumbs.\nStep 3: Heat 2 tbsp oil in a pan and shallow-fry the patties on medium heat until golden and crispy on both sides.\nStep 4: Lightly toast burger buns in butter on a skillet.\nStep 5: Spread mayonnaise on bun bases, lay fresh lettuce, place the crisp patty, top with cheese slice, tomato, and cucumber slices, and close with the top bun.",
-        youtube: "https://youtu.be",
+        youtube: "https://youtu.be/_q5GKCNZcHI?si=xwuIecCNBVI8fUaJ",
     },
     {
         name: "Chocolate Brownie",
         category: "westerndessert",
         image: "https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg",
         steps: "Ingredients: 1/2 cup melted butter, 1 cup sugar, 2 eggs, 1 tsp vanilla extract, 1/3 cup cocoa powder, 1/2 cup all-purpose flour, 1/4 tsp salt, 1/2 cup chocolate chips.\n\nStep 1: Preheat oven to 175°C (350°F) and grease an 8x8 inch baking pan.\nStep 2: In a mixing bowl, whisk together melted butter and sugar until smooth. Add eggs one at a time, along with vanilla extract.\nStep 3: Sift in cocoa powder, all-purpose flour, and salt. Fold gently until completely combined without overmixing.\nStep 4: Fold in 1/2 cup chocolate chips and pour batter into prepared baking pan.\nStep 5: Bake for 20 to 25 minutes until the edges are firm and a toothpick inserted in center comes out with moist crumbs.",
-        youtube: "https://youtu.be",
+        youtube: "https://youtu.be/Eb0VzmWU2VI?si=iUGIhpDA-fulubnk",
     },
     {
         name: "Gulab Jamun",
