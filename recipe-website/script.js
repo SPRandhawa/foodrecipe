@@ -46,7 +46,7 @@ const recipes = [
         category: "westerndessert",
         image: "https://images.pexels.com/photos/6163268/pexels-photo-6163268.jpeg",
         steps: "Ingredients: 2 pie crust sheets, 5 cups sliced apples (peeled and cored), 1/2 cup sugar, 1 tsp cinnamon powder, 1/4 tsp nutmeg, 1 tbsp lemon juice, 2 tbsp butter, 1 egg (for egg wash).\n\nStep 1: In a large bowl, toss sliced apples with sugar, cinnamon powder, nutmeg, and lemon juice.\nStep 2: Line a 9-inch pie dish with one pie crust sheet and trim the edges.\nStep 3: Fill the crust with the spiced apple mixture and dot top with butter pieces.\nStep 4: Cover with the second pie crust, crimp edges to seal, and cut small vents on top for steam.\nStep 5: Brush top with beaten egg and bake at 200°C (400°F) for 40 to 45 minutes until crust is golden brown and filling bubbles.",
-        youtube: "https://youtu.be",
+        youtube: "https://youtu.be/oL84s7OL8WU?si=FvdaakUct0rN0F6o",
     },
     {
         name: "Veggie Burger",
