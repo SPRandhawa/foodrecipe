@@ -102,14 +102,14 @@ const recipes = [
         category: "indian",
         image: "https://media.istockphoto.com/id/979914742/photo/chole-bhature-or-chick-pea-curry-and-fried-puri-served-in-terracotta-crockery-over-white.jpg?s=2048x2048&w=is&k=20&c=zhmGombUCMWWkdI2COP1vh1bDma-3wS_FOv4GmHE41s=",
         steps: "Ingredients: 1 cup soaked chickpeas (chole), 2 pureed tomatoes, 1 chopped onion, 1 tbsp chole masala, 2 cups all-purpose flour (maida), 2 tbsp semolina (sooji), 1/2 cup curd, oil for deep frying.\n\nStep 1: Pressure cook soaked chickpeas with tea bag, salt, and water for 6 whistles until soft.\nStep 2: Heat 2 tbsp oil in a pan, sauté onions, add pureed tomatoes, chole masala, and cook until oil separates. Mix cooked chickpeas and simmer for 10 minutes.\nStep 3: For bhature, knead all-purpose flour, semolina, curd, pinch of baking powder, and warm water into soft dough. Rest for 2 hours.\nStep 4: Roll dough into oval discs.\nStep 5: Deep-fry in hot oil until bhature puff up golden on both sides. Serve hot with spicy chole.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/FEwCfwa2H6Y?si=6ilh47z5GEDafkPZ",
     },
     {
         name: "Palak Paneer",
         category: "indian",
         image: "https://images.pexels.com/photos/17200452/pexels-photo-17200452.jpeg",
         steps: "Ingredients: 200g spinach leaves (palak), 200g paneer cubes, 1 chopped onion, 1 tbsp ginger-garlic paste, 2 green chilies, 1/2 tsp cumin seeds, 2 tbsp fresh cream, 1 tbsp butter/oil, salt.\n\nStep 1: Blanch spinach leaves in boiling water for 2 minutes, plunge into ice water, and blend into smooth puree with green chilies.\nStep 2: Heat butter in a pan, add cumin seeds, chopped onions, and ginger-garlic paste. Fry until light brown.\nStep 3: Add spinach puree, salt, and 1/4 cup water. Simmer on medium flame for 5 minutes.\nStep 4: Add raw or lightly pan-seared paneer cubes into gravy.\nStep 5: Stir in fresh cream, cook for another 2 minutes, and serve hot with naan or rice.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/b5bDtzWCR9M?si=vjPWBou5IucXvofH",
     },
     {
         name: "Falafel Wrap",
