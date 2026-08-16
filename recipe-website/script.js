@@ -123,7 +123,7 @@ const recipes = [
         category: "western",
         image: "https://media.istockphoto.com/id/1404679258/photo/korean-vegetarian-bibimbap-fried-tofu-bento-box-hot-stone-bowl-with-salads-kimchi-bibimbap.jpg?s=2048x2048&w=is&k=20&c=FcZHvBqMFOBK5CLBAnubbqJpMOcmJ06T_Q2q4fzd6t8=",
         steps: "Ingredients: 2 cups cooked warm rice, 1/2 cup sautéed spinach, 1/2 cup sautéed carrots, 1/2 cup sautéed zucchini, 1/2 cup sautéed mushrooms, 1 egg (or pan-fried tofu), 2 tbsp Gochujang (Korean chili paste), 1 tsp sesame oil.\n\nStep 1: Cook short-grain white or brown rice.\nStep 2: Individually sauté spinach, julienned carrots, sliced zucchini, and mushrooms in sesame oil with salt.\nStep 3: Fry an egg sunny-side up (or fry tofu slices).\nStep 4: Scoop warm cooked rice into a bowl base.\nStep 5: Arrange sautéed vegetables side-by-side over rice, top with fried egg in center, and serve with Gochujang paste.",
-        youtube: "https://youtu.be"
+        youtube: "https://youtu.be/bg7ScviH1UA?si=utRWqhY9vOpuF2aB",
     },
     {
         name: "Khachapuri",
