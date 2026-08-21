@@ -9,7 +9,7 @@ const recipes = [
     {
         name: "Pizza pockets",
         category: "Italian",
-        image: "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYWYyi0VpxCiZeh_gea6II0Tz5oC-XrmvFUr6OluDbw&s=10",
         steps: "Ingredients: 1/2 cup dark chocolate (chopped), 3 tbsp butter, 1/2 cup all-purpose flour, 1/4 cup powdered sugar, 2 tbsp cocoa powder, 1/2 tsp baking powder, 1/2 cup warm milk, 1 tsp vanilla extract.\n\nStep 1: Melt chopped dark chocolate and butter together in a heatproof bowl set over simmering water (double boiler) until glossy and smooth; let it cool slightly.\nStep 2: Sift all-purpose flour, powdered sugar, cocoa powder, and baking powder into a bowl.\nStep 3: Pour warm milk, vanilla extract, and melted chocolate mixture into the dry ingredients. Whisk until a smooth, lump-free batter forms.\nStep 4: Grease ramekins with butter and dust with cocoa powder. Pour batter into ramekins until 3/4 full, then drop a piece of dark chocolate into the center.\nStep 5: Bake in a preheated oven at 200°C (400°F) for 10-12 minutes until sides are set but center remains soft. Invert onto a plate and serve warm with vanilla ice cream.",
         youtube: "https://youtu.be/NWGrWnKH7RA?si=JkMJqMXsBYz9eFlg",
     },
